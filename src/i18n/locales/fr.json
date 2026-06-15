@@ -1,0 +1,1164 @@
+{
+  "agency": {
+    "name": "Jobs in Bulgaria",
+    "tagline": "Suivi complet jusqu’au visa",
+    "heroText": "Agence privée d’accompagnement destinée principalement aux candidats tunisiens qui souhaitent préparer un projet professionnel en Bulgarie depuis la Tunisie.",
+    "address": "Adresse à configurer",
+    "signatureArabic": "هنا بدأت رحلتي نحو النسخة الأقوى مني.",
+    "signatureTranslation": "C’est ici que mon voyage vers une meilleure version de moi-même a commencé.",
+    "footerNotice": "Jobs in Bulgaria est une structure privée d’accompagnement destinée principalement aux candidats tunisiens souhaitant préparer un projet professionnel en Bulgarie. Elle n’est ni une ambassade, ni un consulat, ni une administration publique. L’agence ne garantit ni l’embauche, ni l’obtention d’un visa, ni une autorisation administrative. Les décisions finales appartiennent aux employeurs, administrations et autorités compétentes."
+  },
+  "nav": {
+    "home": "Accueil",
+    "opportunities": "Opportunités",
+    "services": "Services",
+    "about": "À propos",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "legal": "Mentions légales",
+    "privacy": "Confidentialité"
+  },
+  "actions": {
+    "apply": "Demander un diagnostic",
+    "whatsapp": "WhatsApp",
+    "viewJobs": "Voir les opportunités",
+    "viewServices": "Voir les services",
+    "learnMore": "En savoir plus",
+    "contact": "Nous contacter",
+    "send": "Envoyer la demande",
+    "backHome": "Retour à l'accueil",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "discoverSupport": "Découvrir notre accompagnement",
+    "startApplication": "Commencer ma candidature",
+    "viewRoles": "Voir les postes",
+    "details": "Voir les détails",
+    "applyWhatsapp": "Postuler sur WhatsApp",
+    "backOpportunities": "Retour aux opportunités"
+  },
+  "labels": {
+    "language": "Langue",
+    "menu": "Menu",
+    "privateAgency": "Agence privée",
+    "noGuarantee": "Sans garantie automatique",
+    "featuredJobs": "Opportunités à explorer",
+    "selectedServices": "Accompagnement complet",
+    "process": "Parcours candidat",
+    "testimonials": "Retours candidats",
+    "commonQuestions": "Questions fréquentes",
+    "contactDirect": "Contact direct",
+    "availability": "Réponse sous 24 à 48h ouvrables",
+    "breadcrumb": "Fil d'Ariane",
+    "phone": "Téléphone",
+    "email": "Email",
+    "address": "Adresse",
+    "location": "Localisation",
+    "sector": "Secteur",
+    "languages": "Langues",
+    "contract": "Contrat"
+  },
+  "floatingWhatsApp": {
+    "label": "Contacter Jobs in Bulgaria sur WhatsApp",
+    "tooltip": "Besoin d'aide ? Écrivez-nous"
+  },
+  "contactSection": {
+    "eyebrow": "Contact Tunisie",
+    "title": "Contactez-nous depuis la Tunisie",
+    "text": "Vous êtes en Tunisie et vous souhaitez préparer votre projet professionnel en Bulgarie ? Envoyez-nous vos informations et notre équipe vous orientera.",
+    "formTitle": "Envoyer un message",
+    "socialsTitle": "Réseaux sociaux",
+    "hoursLabel": "Horaires",
+    "hours": "Horaires à configurer",
+    "emailPlaceholder": "Email à configurer",
+    "addressPlaceholder": "Adresse à configurer",
+    "socialPlaceholder": "à configurer",
+    "visaBlockTitle": "Suivi complet jusqu’au visa",
+    "visaBlockWhatsapp": "WhatsApp",
+    "arabicLine": "هنا تبدأ رحلتك من تونس نحو فرصة جديدة في بلغاريا."
+  },
+  "footer": {
+    "description": "Agence privée d’accompagnement destinée principalement aux candidats tunisiens qui veulent préparer une opportunité professionnelle en Bulgarie depuis la Tunisie.",
+    "navigation": "Navigation",
+    "services": "Services",
+    "information": "Informations",
+    "contact": "Contact",
+    "legalWarning": "Jobs in Bulgaria est une structure privée d’accompagnement destinée principalement aux candidats tunisiens souhaitant préparer un projet professionnel en Bulgarie. Elle n’est ni une ambassade, ni un consulat, ni une administration publique. L’agence ne garantit ni l’embauche, ni l’obtention d’un visa, ni une autorisation administrative. Les décisions finales appartiennent aux employeurs, administrations et autorités compétentes.",
+    "copyright": "© {{year}} Jobs in Bulgaria. Tous droits réservés."
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Jobs in Bulgaria Tunisie | Travail en Bulgarie pour les Tunisiens",
+        "description": "Jobs in Bulgaria accompagne les candidats tunisiens dans leur candidature, la préparation de leur dossier et le suivi de leurs démarches pour travailler en Bulgarie."
+      },
+      "opportunities": {
+        "title": "Opportunités professionnelles en Bulgarie pour Tunisiens | Jobs in Bulgaria",
+        "description": "Consultez les domaines disponibles pour les candidats tunisiens et envoyez votre profil pour une orientation personnalisée vers les opportunités professionnelles en Bulgarie."
+      },
+      "services": {
+        "title": "Accompagnement visa Bulgarie Tunisie | Jobs in Bulgaria",
+        "description": "Préparez votre dossier depuis la Tunisie avec un accompagnement clair pour votre candidature, vos documents, votre suivi et votre départ vers la Bulgarie."
+      },
+      "about": {
+        "title": "Jobs in Bulgaria Tunisie | À propos",
+        "description": "Découvrez Jobs in Bulgaria, une structure privée qui accompagne les profils tunisiens souhaitant préparer un projet professionnel en Bulgarie."
+      },
+      "faq": {
+        "title": "FAQ Tunisie Bulgarie | Jobs in Bulgaria",
+        "description": "Réponses aux questions fréquentes des Tunisiens sur le travail en Bulgarie, le dossier, le passeport, le visa et les opportunités."
+      },
+      "contact": {
+        "title": "Contact Jobs in Bulgaria Tunisie",
+        "description": "Contactez Jobs in Bulgaria depuis la Tunisie via WhatsApp pour envoyer votre profil ou poser vos questions sur votre projet en Bulgarie."
+      },
+      "legal": {
+        "title": "Mentions légales | Jobs in Bulgaria Tunisie",
+        "description": "Consultez les mentions légales de Jobs in Bulgaria, structure privée d’accompagnement pour candidats tunisiens."
+      },
+      "privacy": {
+        "title": "Politique de confidentialité | Jobs in Bulgaria Tunisie",
+        "description": "Consultez les principes de confidentialité appliqués aux informations envoyées via le site ou WhatsApp."
+      },
+      "notFound": {
+        "title": "Page introuvable | Jobs in Bulgaria Tunisie",
+        "description": "La page demandée est introuvable. Retournez à l’accueil ou envoyez votre profil à Jobs in Bulgaria."
+      }
+    }
+  },
+  "pages": {
+    "opportunities": {
+      "title": "Opportunités professionnelles en Bulgarie pour les Tunisiens",
+      "intro": "Consultez les domaines disponibles et envoyez votre profil pour une orientation personnalisée."
+    },
+    "services": {
+      "title": "Services pour avancer avec clarté",
+      "intro": "Un accompagnement structuré pour préparer votre candidature, vos documents et votre départ, sans confusion sur le rôle de l'agence."
+    },
+    "about": {
+      "title": "Une agence spécialisée Bulgarie",
+      "intro": "Jobs in Bulgaria accompagne les candidats avec une approche humaine, méthodique et transparente."
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "intro": "Les réponses essentielles avant de commencer votre projet."
+    },
+    "contact": {
+      "title": "Parlons de votre projet",
+      "intro": "Envoyez votre demande ou contactez directement l'équipe sur WhatsApp."
+    },
+    "legal": {
+      "title": "Mentions légales",
+      "intro": "Informations générales sur l'éditeur, la nature du service et les limites de responsabilité."
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "intro": "Principes de base concernant les informations transmises via le site."
+    },
+    "notFound": {
+      "title": "Page introuvable",
+      "intro": "La page demandée n'existe pas ou a été déplacée."
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "Depuis la Tunisie vers la Bulgarie",
+      "title": "Travaillez en Bulgarie avec un accompagnement depuis la Tunisie",
+      "subtitle": "Jobs in Bulgaria accompagne les candidats tunisiens dans la préparation de leur candidature, le suivi de leur dossier et les démarches nécessaires jusqu’au départ.",
+      "visaLine": "Suivi complet jusqu’au visa",
+      "arabicLine": "نعاونك خطوة بخطوة من تونس إلى بلغاريا",
+      "primaryCta": "Envoyer ma candidature",
+      "whatsappCta": "Parler sur WhatsApp",
+      "whatsappLabel": "WhatsApp",
+      "floatingTitle": "Candidats tunisiens",
+      "floatingSubtitle": "Suivi via WhatsApp",
+      "imageAlt": "Jeunes Tunisiens préparant un départ professionnel vers la Bulgarie.",
+      "trustItems": [
+        "Accompagnement depuis la Tunisie",
+        "Suivi personnalisé du dossier",
+        "Préparation avant le départ"
+      ]
+    },
+    "mainServices": {
+      "eyebrow": "Notre accompagnement",
+      "title": "Un accompagnement pensé pour les candidats tunisiens",
+      "cards": [
+        {
+          "id": "profile-analysis",
+          "icon": "users",
+          "title": "Analyse de votre profil",
+          "description": "Nous examinons votre parcours, vos langues, votre expérience et votre disponibilité depuis la Tunisie."
+        },
+        {
+          "id": "application-preparation",
+          "icon": "fileCheck",
+          "title": "Préparation de candidature",
+          "description": "Nous vous aidons à organiser les informations nécessaires pour présenter votre profil correctement."
+        },
+        {
+          "id": "opportunity-orientation",
+          "icon": "briefcase",
+          "title": "Orientation vers les opportunités",
+          "description": "Nous vous orientons vers les postes disponibles selon votre niveau, vos langues et votre domaine."
+        },
+        {
+          "id": "visa-follow-up",
+          "icon": "clipboardCheck",
+          "title": "Suivi jusqu’au visa",
+          "description": "Nous assurons un suivi clair du dossier et vous guidons dans les étapes administratives jusqu’au départ."
+        },
+        {
+          "id": "departure-preparation",
+          "icon": "plane",
+          "title": "Préparation avant le départ",
+          "description": "Nous vous donnons les informations utiles avant votre installation en Bulgarie."
+        },
+        {
+          "id": "whatsapp-follow-up",
+          "icon": "headset",
+          "title": "Suivi WhatsApp",
+          "description": "Vous pouvez suivre l’évolution de votre demande directement via WhatsApp."
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "À propos de notre agence",
+      "title": "De votre première candidature en Tunisie jusqu’à votre installation en Bulgarie",
+      "text": "Jobs in Bulgaria accompagne les profils tunisiens souhaitant construire un parcours professionnel en Bulgarie. Notre objectif est de rendre chaque étape plus claire, mieux organisée et plus rassurante.",
+      "badge": "Accompagnement des profils tunisiens",
+      "mainImageAlt": "Candidats tunisiens préparant une candidature professionnelle",
+      "secondaryImageAlt": "CV et documents organisés pour une candidature en Bulgarie",
+      "items": [
+        "Analyse de votre profil depuis la Tunisie",
+        "Orientation vers les opportunités adaptées",
+        "Assistance dans la préparation du CV et du dossier",
+        "Suivi personnalisé via WhatsApp",
+        "Préparation avant le départ vers la Bulgarie"
+      ]
+    },
+    "whyBulgaria": {
+      "title": "Pourquoi la Bulgarie peut être une étape intéressante pour votre projet depuis la Tunisie ?",
+      "cta": "Voir les opportunités disponibles",
+      "cards": [
+        {
+          "id": "international-opportunities",
+          "icon": "globe",
+          "title": "Opportunités professionnelles",
+          "description": "Des entreprises en Bulgarie recherchent régulièrement des profils multilingues selon leurs besoins."
+        },
+        {
+          "id": "multicultural-environment",
+          "icon": "users",
+          "title": "Environnement multiculturel",
+          "description": "Certains postes permettent de travailler avec des équipes internationales et plusieurs langues."
+        },
+        {
+          "id": "career-development",
+          "icon": "route",
+          "title": "Développement de carrière",
+          "description": "Une expérience en Bulgarie peut renforcer un parcours orienté client, support, digital ou opérations."
+        },
+        {
+          "id": "european-experience",
+          "icon": "map",
+          "title": "Expérience européenne",
+          "description": "Vivre et travailler en Bulgarie peut aider à découvrir un cadre professionnel européen."
+        }
+      ]
+    },
+    "prepareProject": {
+      "eyebrow": "Préparer votre départ",
+      "title": "Construisons votre projet depuis la Tunisie",
+      "text": "Un départ réussi commence par une préparation claire. Nous vous aidons à comprendre les étapes principales avant votre arrivée en Bulgarie.",
+      "imageAlt": "Départ professionnel depuis la Tunisie vers la Bulgarie",
+      "items": [
+        "Profil et candidature",
+        "CV et documents nécessaires",
+        "Préparation administrative",
+        "Conseils avant le départ"
+      ],
+      "floatingTitle": "Suivi personnalisé",
+      "floatingContactLabel": "WhatsApp"
+    },
+    "simpleProcess": {
+      "title": "Votre départ de Tunisie vers la Bulgarie en étapes claires",
+      "steps": [
+        {
+          "id": "send-info",
+          "icon": "file",
+          "title": "Envoyez vos informations",
+          "description": "Nom, prénom, pays, ville, langues, expérience et disponibilité."
+        },
+        {
+          "id": "profile-review",
+          "icon": "search",
+          "title": "Étude de votre profil",
+          "description": "Votre profil est analysé pour vérifier les opportunités adaptées."
+        },
+        {
+          "id": "file-preparation",
+          "icon": "documents",
+          "title": "Préparation du dossier",
+          "description": "Nous vous orientons sur les informations et documents nécessaires selon votre situation."
+        },
+        {
+          "id": "application-follow-up",
+          "icon": "clipboardCheck",
+          "title": "Suivi de la candidature",
+          "description": "Vous recevez un suivi personnalisé pendant l’avancement de votre demande."
+        },
+        {
+          "id": "departure-preparation",
+          "icon": "plane",
+          "title": "Préparation au départ",
+          "description": "Nous vous accompagnons avant votre départ vers la Bulgarie."
+        }
+      ]
+    },
+    "professionalSectors": {
+      "eyebrow": "Domaines disponibles",
+      "title": "Secteurs souvent demandés en Bulgarie",
+      "note": "Les opportunités peuvent changer selon les besoins des entreprises partenaires. L’envoi d’un profil ne garantit pas automatiquement une embauche.",
+      "cta": "Voir les postes",
+      "sectors": [
+        {
+          "id": "customer-support",
+          "icon": "headset",
+          "title": "Customer Support",
+          "description": "Support client et traitement de demandes pour des équipes internationales."
+        },
+        {
+          "id": "content-moderation",
+          "icon": "shield",
+          "title": "Content Moderation",
+          "description": "Analyse et modération de contenus selon des règles internes."
+        },
+        {
+          "id": "it-digital",
+          "icon": "monitor",
+          "title": "Informatique et digital",
+          "description": "Support technique, outils digitaux ou environnements informatiques."
+        },
+        {
+          "id": "customer-relations",
+          "icon": "users",
+          "title": "Relation client",
+          "description": "Suivi client, communication et assistance dans un cadre professionnel."
+        },
+        {
+          "id": "sales",
+          "icon": "shopping",
+          "title": "Vente",
+          "description": "Fonctions commerciales ou support aux équipes de vente selon les besoins."
+        },
+        {
+          "id": "logistics",
+          "icon": "warehouse",
+          "title": "Logistique",
+          "description": "Coordination opérationnelle, suivi de flux et organisation quotidienne."
+        },
+        {
+          "id": "hospitality-services",
+          "icon": "utensils",
+          "title": "Hôtellerie et services",
+          "description": "Métiers de service, accueil et assistance dans des environnements structurés."
+        },
+        {
+          "id": "multilingual-support",
+          "icon": "language",
+          "title": "Support multilingue",
+          "description": "Postes valorisant le français, l’arabe, l’anglais ou d’autres langues."
+        }
+      ]
+    },
+    "adminStats": {
+      "title": "Chiffres clés",
+      "placeholder": "À renseigner",
+      "items": [
+        {
+          "label": "Candidats accompagnés"
+        },
+        {
+          "label": "Profils étudiés"
+        },
+        {
+          "label": "Entreprises partenaires"
+        },
+        {
+          "label": "Langues accompagnées"
+        }
+      ]
+    },
+    "whoFor": {
+      "eyebrow": "Profils tunisiens",
+      "title": "À qui s’adresse notre accompagnement ?",
+      "text": "L’accompagnement s’adresse aux Tunisiens qui veulent préparer sérieusement une opportunité professionnelle en Bulgarie, avec des étapes claires depuis la Tunisie.",
+      "routeFrom": "Tunisie",
+      "routeTo": "Bulgarie",
+      "cards": [
+        {
+          "id": "graduates",
+          "title": "Jeunes diplômés tunisiens",
+          "description": "Vous cherchez une première expérience professionnelle en Bulgarie."
+        },
+        {
+          "id": "experienced",
+          "title": "Profils avec expérience",
+          "description": "Vous avez déjà une expérience et vous souhaitez développer votre carrière à l’étranger."
+        },
+        {
+          "id": "multilingual",
+          "title": "Candidats multilingues",
+          "description": "Vous parlez français, anglais, arabe ou d’autres langues utiles pour les postes internationaux."
+        },
+        {
+          "id": "motivated",
+          "title": "Profils motivés à partir",
+          "description": "Vous voulez préparer sérieusement votre projet depuis la Tunisie."
+        }
+      ]
+    }
+  },
+  "services": {
+    "items": [
+      {
+        "id": "profile-analysis",
+        "icon": "users",
+        "title": "Analyse de votre profil",
+        "description": "Nous examinons votre parcours, vos langues, votre expérience et votre disponibilité depuis la Tunisie.",
+        "points": [
+          "Étapes claires",
+          "Suivi via WhatsApp",
+          "Sans garantie automatique"
+        ]
+      },
+      {
+        "id": "application-preparation",
+        "icon": "fileCheck",
+        "title": "Préparation de candidature",
+        "description": "Nous vous aidons à organiser les informations nécessaires pour présenter votre profil correctement.",
+        "points": [
+          "Étapes claires",
+          "Suivi via WhatsApp",
+          "Sans garantie automatique"
+        ]
+      },
+      {
+        "id": "opportunity-orientation",
+        "icon": "briefcase",
+        "title": "Orientation vers les opportunités",
+        "description": "Nous vous orientons vers les postes disponibles selon votre niveau, vos langues et votre domaine.",
+        "points": [
+          "Étapes claires",
+          "Suivi via WhatsApp",
+          "Sans garantie automatique"
+        ]
+      },
+      {
+        "id": "visa-follow-up",
+        "icon": "clipboardCheck",
+        "title": "Suivi jusqu’au visa",
+        "description": "Nous assurons un suivi clair du dossier et vous guidons dans les étapes administratives jusqu’au départ.",
+        "points": [
+          "Étapes claires",
+          "Suivi via WhatsApp",
+          "Sans garantie automatique"
+        ]
+      },
+      {
+        "id": "departure-preparation",
+        "icon": "plane",
+        "title": "Préparation avant le départ",
+        "description": "Nous vous donnons les informations utiles avant votre installation en Bulgarie.",
+        "points": [
+          "Étapes claires",
+          "Suivi via WhatsApp",
+          "Sans garantie automatique"
+        ]
+      },
+      {
+        "id": "whatsapp-follow-up",
+        "icon": "headset",
+        "title": "Suivi WhatsApp",
+        "description": "Vous pouvez suivre l’évolution de votre demande directement via WhatsApp.",
+        "points": [
+          "Étapes claires",
+          "Suivi via WhatsApp",
+          "Sans garantie automatique"
+        ]
+      }
+    ],
+    "processTitle": "Suivi complet jusqu’au visa",
+    "processText": "L’accompagnement reste méthodique et transparent. Jobs in Bulgaria ne remplace pas les employeurs, administrations ou autorités compétentes.",
+    "processSteps": [
+      {
+        "id": "send-info",
+        "title": "Envoyez vos informations",
+        "description": "Nom, prénom, pays, ville, langues, expérience et disponibilité."
+      },
+      {
+        "id": "profile-review",
+        "title": "Étude de votre profil",
+        "description": "Votre profil est analysé pour vérifier les opportunités adaptées."
+      },
+      {
+        "id": "file-preparation",
+        "title": "Préparation du dossier",
+        "description": "Nous vous orientons sur les informations et documents nécessaires selon votre situation."
+      },
+      {
+        "id": "application-follow-up",
+        "title": "Suivi de la candidature",
+        "description": "Vous recevez un suivi personnalisé pendant l’avancement de votre demande."
+      },
+      {
+        "id": "departure-preparation",
+        "title": "Préparation au départ",
+        "description": "Nous vous accompagnons avant votre départ vers la Bulgarie."
+      }
+    ]
+  },
+  "about": {
+    "values": [
+      {
+        "id": "transparency",
+        "title": "Transparence",
+        "body": "Un accompagnement clair, sans promesse automatique ni discours ambigu sur les décisions externes."
+      },
+      {
+        "id": "method",
+        "title": "Méthode",
+        "body": "Chaque candidature avance avec des étapes visibles, des priorités et des documents organisés."
+      },
+      {
+        "id": "respect",
+        "title": "Respect du candidat",
+        "body": "Nous prenons le temps de comprendre votre profil et de vous expliquer les limites comme les possibilités."
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "id": "tunisians",
+        "question": "Est-ce que le service est destiné aux Tunisiens ?",
+        "answer": "Oui, Jobs in Bulgaria accompagne principalement les candidats tunisiens souhaitant préparer un projet professionnel en Bulgarie."
+      },
+      {
+        "id": "apply-from-tunisia",
+        "question": "Est-ce que je peux postuler depuis la Tunisie ?",
+        "answer": "Oui, vous pouvez envoyer vos informations depuis la Tunisie via le formulaire ou WhatsApp."
+      },
+      {
+        "id": "job-guarantee",
+        "question": "Est-ce que vous garantissez un emploi ?",
+        "answer": "Non. L’agence accompagne les candidats et facilite l’orientation vers les opportunités disponibles. La décision finale appartient toujours à l’employeur."
+      },
+      {
+        "id": "visa-guarantee",
+        "question": "Est-ce que vous garantissez le visa ?",
+        "answer": "Non. Les décisions relatives aux visas, autorisations et documents officiels appartiennent uniquement aux autorités compétentes."
+      },
+      {
+        "id": "english-level",
+        "question": "Quel niveau d’anglais est demandé ?",
+        "answer": "Cela dépend du poste. Certains postes demandent un niveau intermédiaire, d’autres exigent un meilleur niveau. Il est important de préciser votre niveau réel."
+      },
+      {
+        "id": "french-useful",
+        "question": "Est-ce que le français est utile ?",
+        "answer": "Oui, certains postes peuvent valoriser le français, surtout dans les services clients ou les postes multilingues."
+      },
+      {
+        "id": "passport",
+        "question": "Dois-je avoir un passeport ?",
+        "answer": "Un passeport valide peut être nécessaire pour certaines étapes. Si vous n’en avez pas encore, indiquez-le dans votre candidature."
+      },
+      {
+        "id": "send-profile",
+        "question": "Comment envoyer mon profil ?",
+        "answer": "Vous pouvez remplir le formulaire ou envoyer directement vos informations via WhatsApp au +359 888 626 203."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Des candidats mieux préparés avancent avec plus de calme.",
+    "text": "Ces retours illustrent le type de suivi recherché : clarté, organisation et communication continue.",
+    "items": [
+      {
+        "id": "sarah",
+        "name": "Sarah M.",
+        "role": "Projet professionnel",
+        "quote": "J'avais besoin d'un cadre clair. L'équipe m'a aidée à comprendre les étapes et à présenter mon profil de façon plus professionnelle."
+      },
+      {
+        "id": "yassine",
+        "name": "Yassine B.",
+        "role": "Profil support client",
+        "quote": "Le suivi était sérieux, surtout pour les documents et la préparation aux entretiens. Je savais toujours quelle était la prochaine action."
+      },
+      {
+        "id": "nour",
+        "name": "Nour E.",
+        "role": "Projet de mobilité",
+        "quote": "La communication en arabe et en français m'a rassurée. J'ai avancé avec plus de calme et moins de confusion."
+      }
+    ]
+  },
+  "applicationForm": {
+    "sectionEyebrow": "Candidature depuis la Tunisie",
+    "sectionTitle": "Envoyer votre candidature depuis la Tunisie",
+    "sectionIntro": "Remplissez les informations essentielles. Votre candidature sera préparée pour WhatsApp afin de l’envoyer directement à Jobs in Bulgaria.",
+    "privacyNote": "Les informations renseignées seront utilisées uniquement pour examiner votre demande et vous contacter concernant les services de Jobs in Bulgaria.",
+    "redirectNotice": "Votre candidature sera envoyée via WhatsApp. Aucune donnée n’est enregistrée sur le site pour le moment.",
+    "submit": "Préparer ma candidature WhatsApp",
+    "fields": {
+      "lastName": "Nom",
+      "firstName": "Prénom",
+      "age": "Âge",
+      "tunisianCity": "Ville en Tunisie",
+      "governorate": "Gouvernorat",
+      "whatsapp": "Numéro WhatsApp",
+      "email": "Email",
+      "educationLevel": "Niveau d’études",
+      "experienceDomain": "Domaine d’expérience",
+      "experienceYears": "Nombre d’années d’expérience",
+      "spokenLanguages": "Langues parlées",
+      "englishLevel": "Niveau d’anglais",
+      "frenchLevel": "Niveau de français",
+      "arabicLevel": "Niveau d’arabe",
+      "availability": "Disponibilité pour partir",
+      "validPassport": "Avez-vous un passeport valide ?",
+      "workedAbroad": "Avez-vous déjà travaillé à l’étranger ?",
+      "message": "Message complémentaire",
+      "consent": "J’accepte la politique de confidentialité et le traitement de mes informations pour l’examen de ma demande."
+    },
+    "placeholders": {
+      "lastName": "Votre nom",
+      "firstName": "Votre prénom",
+      "age": "Ex. 24",
+      "tunisianCity": "Ex. Tunis, Sfax, Sousse...",
+      "email": "votre@email.com",
+      "whatsapp": "+216...",
+      "spokenLanguages": "Ex. arabe, français, anglais",
+      "select": "Sélectionner une option",
+      "experienceYears": "Ex. 3",
+      "message": "Ajoutez toute information utile sur votre profil, votre disponibilité ou votre projet."
+    },
+    "languageLevels": [
+      {
+        "value": "a1",
+        "label": "Débutant A1"
+      },
+      {
+        "value": "a2",
+        "label": "Élémentaire A2"
+      },
+      {
+        "value": "b1",
+        "label": "Intermédiaire B1"
+      },
+      {
+        "value": "b2",
+        "label": "Intermédiaire avancé B2"
+      },
+      {
+        "value": "c1",
+        "label": "Avancé C1"
+      },
+      {
+        "value": "c2",
+        "label": "Maîtrise C2"
+      }
+    ],
+    "domains": [
+      {
+        "value": "customer-support",
+        "label": "Customer Support"
+      },
+      {
+        "value": "content-moderation",
+        "label": "Content Moderation"
+      },
+      {
+        "value": "it-digital",
+        "label": "Informatique et digital"
+      },
+      {
+        "value": "customer-relations",
+        "label": "Relation client"
+      },
+      {
+        "value": "sales",
+        "label": "Vente"
+      },
+      {
+        "value": "logistics",
+        "label": "Logistique"
+      },
+      {
+        "value": "hospitality-services",
+        "label": "Hôtellerie et services"
+      },
+      {
+        "value": "multilingual-support",
+        "label": "Support multilingue"
+      },
+      {
+        "value": "other",
+        "label": "Autre domaine"
+      }
+    ],
+    "availabilityOptions": [
+      {
+        "value": "immediate",
+        "label": "Disponible immédiatement"
+      },
+      {
+        "value": "one-month",
+        "label": "Disponible dans un mois"
+      },
+      {
+        "value": "two-three-months",
+        "label": "Disponible dans deux à trois mois"
+      },
+      {
+        "value": "to-discuss",
+        "label": "À discuter"
+      }
+    ],
+    "errors": {
+      "lastName": "Indiquez votre nom.",
+      "firstName": "Indiquez votre prénom.",
+      "age": "Indiquez un âge valide.",
+      "tunisianCity": "Indiquez votre ville en Tunisie.",
+      "governorate": "Sélectionnez votre gouvernorat.",
+      "whatsapp": "Indiquez un numéro WhatsApp valide.",
+      "email": "Indiquez un email valide.",
+      "educationLevel": "Sélectionnez votre niveau d’études.",
+      "experienceDomain": "Sélectionnez votre domaine d’expérience.",
+      "experienceYears": "Indiquez un nombre d’années d’expérience valide.",
+      "spokenLanguages": "Indiquez au moins une langue parlée.",
+      "englishLevel": "Sélectionnez votre niveau d’anglais.",
+      "frenchLevel": "Sélectionnez votre niveau de français.",
+      "arabicLevel": "Sélectionnez votre niveau d’arabe.",
+      "availability": "Sélectionnez votre disponibilité.",
+      "validPassport": "Précisez votre situation de passeport.",
+      "workedAbroad": "Précisez si vous avez déjà travaillé à l’étranger.",
+      "message": "Votre message doit contenir au moins 10 caractères.",
+      "consent": "Votre accord est nécessaire avant l’envoi."
+    },
+    "whatsappMessage": "Nouvelle candidature depuis la Tunisie — Jobs in Bulgaria\n\nNom et prénom : {{firstName}} {{lastName}}\nÂge : {{age}}\nVille : {{tunisianCity}}\nGouvernorat : {{governorate}}\nWhatsApp : {{whatsapp}}\nEmail : {{email}}\nNiveau d’études : {{educationLevel}}\nDomaine : {{experienceDomain}}\nExpérience : {{experienceYears}}\nLangues : {{spokenLanguages}}\nNiveau anglais : {{englishLevel}}\nNiveau français : {{frenchLevel}}\nNiveau arabe : {{arabicLevel}}\nPasseport valide : {{validPassport}}\nTravail à l’étranger : {{workedAbroad}}\nDisponibilité : {{availability}}\nMessage : {{message}}",
+    "governorates": [
+      {
+        "value": "tunis",
+        "label": "Tunis"
+      },
+      {
+        "value": "ariana",
+        "label": "Ariana"
+      },
+      {
+        "value": "ben-arous",
+        "label": "Ben Arous"
+      },
+      {
+        "value": "manouba",
+        "label": "Manouba"
+      },
+      {
+        "value": "nabeul",
+        "label": "Nabeul"
+      },
+      {
+        "value": "zaghouan",
+        "label": "Zaghouan"
+      },
+      {
+        "value": "bizerte",
+        "label": "Bizerte"
+      },
+      {
+        "value": "beja",
+        "label": "Béja"
+      },
+      {
+        "value": "jendouba",
+        "label": "Jendouba"
+      },
+      {
+        "value": "kef",
+        "label": "Kef"
+      },
+      {
+        "value": "siliana",
+        "label": "Siliana"
+      },
+      {
+        "value": "sousse",
+        "label": "Sousse"
+      },
+      {
+        "value": "monastir",
+        "label": "Monastir"
+      },
+      {
+        "value": "mahdia",
+        "label": "Mahdia"
+      },
+      {
+        "value": "sfax",
+        "label": "Sfax"
+      },
+      {
+        "value": "kairouan",
+        "label": "Kairouan"
+      },
+      {
+        "value": "kasserine",
+        "label": "Kasserine"
+      },
+      {
+        "value": "sidi-bouzid",
+        "label": "Sidi Bouzid"
+      },
+      {
+        "value": "gabes",
+        "label": "Gabès"
+      },
+      {
+        "value": "medenine",
+        "label": "Médenine"
+      },
+      {
+        "value": "tataouine",
+        "label": "Tataouine"
+      },
+      {
+        "value": "gafsa",
+        "label": "Gafsa"
+      },
+      {
+        "value": "tozeur",
+        "label": "Tozeur"
+      },
+      {
+        "value": "kebili",
+        "label": "Kébili"
+      }
+    ],
+    "educationLevels": [
+      {
+        "value": "secondary",
+        "label": "Secondaire"
+      },
+      {
+        "value": "bac",
+        "label": "Baccalauréat"
+      },
+      {
+        "value": "bts",
+        "label": "BTS / BTP"
+      },
+      {
+        "value": "licence",
+        "label": "Licence"
+      },
+      {
+        "value": "master",
+        "label": "Master"
+      },
+      {
+        "value": "engineering",
+        "label": "Ingénieur"
+      },
+      {
+        "value": "vocational",
+        "label": "Formation professionnelle"
+      },
+      {
+        "value": "other",
+        "label": "Autre"
+      }
+    ],
+    "passportOptions": [
+      {
+        "value": "yes",
+        "label": "Oui"
+      },
+      {
+        "value": "no",
+        "label": "Non"
+      },
+      {
+        "value": "in-progress",
+        "label": "En cours"
+      }
+    ],
+    "workedAbroadOptions": [
+      {
+        "value": "yes",
+        "label": "Oui"
+      },
+      {
+        "value": "no",
+        "label": "Non"
+      }
+    ]
+  },
+  "form": {
+    "name": "Nom complet",
+    "email": "Email",
+    "phone": "Téléphone / WhatsApp",
+    "subject": "Sujet",
+    "subjectPlaceholder": "Choisir un sujet",
+    "message": "Votre message",
+    "consent": "J'accepte d'être recontacté au sujet de ma demande.",
+    "success": "Vous allez être redirigé vers WhatsApp afin d'envoyer votre message.",
+    "submitWhatsapp": "Envoyer sur WhatsApp",
+    "placeholders": {
+      "name": "Votre nom",
+      "email": "votre@email.com",
+      "phone": "+216...",
+      "message": "Expliquez votre profil, votre expérience et votre projet."
+    },
+    "subjects": [
+      {
+        "value": "diagnostic",
+        "label": "Diagnostic de profil"
+      },
+      {
+        "value": "jobs",
+        "label": "Opportunités d'emploi"
+      },
+      {
+        "value": "documents",
+        "label": "Documents et dossier"
+      },
+      {
+        "value": "visa",
+        "label": "Orientation visa"
+      },
+      {
+        "value": "other",
+        "label": "Autre demande"
+      }
+    ],
+    "errors": {
+      "name": "Indiquez au moins 2 caractères.",
+      "email": "Indiquez un email valide.",
+      "phone": "Indiquez au moins 6 caractères.",
+      "subject": "Choisissez un sujet.",
+      "message": "Votre message doit contenir au moins 20 caractères.",
+      "consent": "Votre accord est nécessaire pour être recontacté."
+    },
+    "whatsappMessage": "Nouveau message — Jobs in Bulgaria\n\nNom : {{name}}\nEmail : {{email}}\nTéléphone : {{phone}}\nSujet : {{subject}}\nMessage : {{message}}"
+  },
+  "opportunities": {
+    "eyebrow": "Tunisie vers Bulgarie",
+    "breadcrumbHome": "Accueil",
+    "breadcrumbCurrent": "Opportunités",
+    "emptyActive": "Aucune opportunité n’est actuellement publiée. Contactez-nous sur WhatsApp pour nous envoyer votre profil depuis la Tunisie.",
+    "demoNotice": "Les cartes ci-dessous sont des exemples de domaines et servent uniquement à présenter la structure des opportunités.",
+    "availableTitle": "Postes disponibles",
+    "demoTitle": "Exemples de domaines",
+    "results_one": "{{count}} résultat affiché",
+    "results_other": "{{count}} résultats affichés",
+    "noFilterTitle": "Aucun résultat pour ces filtres",
+    "noFilterText": "Aucune opportunité ne correspond à ces filtres. Vous pouvez nous envoyer votre profil pour une orientation personnalisée.",
+    "spontaneousTitle": "Candidature depuis la Tunisie",
+    "demoBadge": "Exemple de poste",
+    "featuredBadge": "Mis en avant",
+    "inactiveBadge": "Non publié comme offre active",
+    "notFoundEyebrow": "Opportunités",
+    "notFoundTitle": "Poste introuvable",
+    "notFoundText": "Cette opportunité n'existe pas ou a été retirée.",
+    "descriptionTitle": "Description du poste",
+    "requirementsTitle": "Profil recherché",
+    "benefitsTitle": "Éléments possibles selon le poste",
+    "applyTitle": "Postuler via WhatsApp",
+    "applyText": "Le message est préparé automatiquement avec le nom du poste. Complétez vos informations avant l'envoi.",
+    "demoDetailNotice": "Ceci est un exemple de poste. Il ne correspond pas à une offre active publiée.",
+    "whatsappMessage": "Bonjour, je souhaite obtenir plus d’informations concernant le poste : {{title}}.\n\nNom et prénom :\nVille en Tunisie :\nGouvernorat :\nLangues parlées :\nExpérience :\nDisponibilité :",
+    "filters": {
+      "keyword": "Mot-clé",
+      "keywordPlaceholder": "Domaine, langue, expérience...",
+      "sector": "Domaine",
+      "language": "Langue demandée",
+      "experienceLevel": "Niveau d’expérience",
+      "availability": "Disponibilité",
+      "currentCity": "Ville actuelle en Tunisie",
+      "all": "Tous"
+    },
+    "experienceLevels": [
+      {
+        "value": "junior",
+        "label": "Débutant / junior"
+      },
+      {
+        "value": "experienced",
+        "label": "Avec expérience"
+      },
+      {
+        "value": "all-levels",
+        "label": "Tous niveaux"
+      }
+    ],
+    "currentCities": [
+      {
+        "value": "tunis",
+        "label": "Tunis"
+      },
+      {
+        "value": "sfax",
+        "label": "Sfax"
+      },
+      {
+        "value": "sousse",
+        "label": "Sousse"
+      },
+      {
+        "value": "other",
+        "label": "Autre ville en Tunisie"
+      }
+    ],
+    "note": "Les opportunités peuvent changer selon les besoins des entreprises partenaires. L’envoi d’un profil ne garantit pas automatiquement une embauche."
+  },
+  "jobs": {
+    "companyExample": "Entreprise partenaire exemple",
+    "locations": {
+      "sofia": "Sofia",
+      "plovdiv": "Plovdiv"
+    },
+    "sectors": {
+      "customerSupport": "Customer Support",
+      "contentModeration": "Content Moderation",
+      "itDigital": "Informatique et digital",
+      "logistics": "Logistique",
+      "customerRelations": "Relation client",
+      "sales": "Vente",
+      "hospitalityServices": "Hôtellerie et services",
+      "multilingualSupport": "Support multilingue"
+    },
+    "contractTypes": {
+      "fullTime": "Temps plein"
+    },
+    "languages": {
+      "french": "Français",
+      "english": "Anglais",
+      "arabic": "Arabe"
+    },
+    "experienceLevels": {
+      "junior": "Débutant / junior",
+      "experienced": "Avec expérience",
+      "allLevels": "Tous niveaux"
+    },
+    "availability": {
+      "immediate": "Disponible rapidement",
+      "oneMonth": "Sous un mois",
+      "flexible": "Flexible"
+    },
+    "currentCities": {
+      "tunis": "Tunis",
+      "sfax": "Sfax",
+      "sousse": "Sousse",
+      "allTunisia": "Toute la Tunisie"
+    },
+    "demoCustomerSupport": {
+      "title": "Conseiller client francophone",
+      "description": "Exemple de poste orienté relation client pour profils tunisiens francophones souhaitant travailler en Bulgarie.",
+      "requirements": [
+        "Bon niveau de français à l’oral et à l’écrit",
+        "Aisance avec les outils informatiques",
+        "Motivation pour préparer un départ depuis la Tunisie"
+      ],
+      "benefits": [
+        "Cadre de travail international",
+        "Formation interne selon le poste",
+        "Accompagnement dans la préparation du dossier"
+      ]
+    },
+    "demoContentModeration": {
+      "title": "Modérateur de contenu multilingue",
+      "description": "Exemple de mission de contrôle et de modération de contenus pour candidats parlant arabe, français ou anglais.",
+      "requirements": [
+        "Capacité d’analyse et attention aux détails",
+        "Respect des consignes et confidentialité",
+        "Disponibilité pour travailler dans un environnement structuré"
+      ],
+      "benefits": [
+        "Environnement multiculturel",
+        "Processus encadré",
+        "Possibilités de montée en compétence selon profil"
+      ]
+    },
+    "demoItSupportJunior": {
+      "title": "Support IT junior",
+      "description": "Exemple de poste junior pour candidats tunisiens avec bases en informatique, support utilisateur ou outils digitaux.",
+      "requirements": [
+        "Bases en informatique ou support utilisateur",
+        "Anglais opérationnel",
+        "Organisation et envie d’apprendre"
+      ],
+      "benefits": [
+        "Expérience dans un contexte international",
+        "Formation possible selon le profil",
+        "Accompagnement avant le départ"
+      ]
+    },
+    "demoLogisticsCoordinator": {
+      "title": "Coordinateur logistique junior",
+      "description": "Exemple de poste de coordination opérationnelle, suivi de flux et communication avec des équipes internes.",
+      "requirements": [
+        "Bon sens de l’organisation",
+        "Communication claire",
+        "Anglais professionnel apprécié"
+      ],
+      "benefits": [
+        "Découverte d’un environnement opérationnel européen",
+        "Travail en équipe",
+        "Suivi de candidature structuré"
+      ]
+    }
+  },
+  "legal": {
+    "items": [
+      {
+        "id": "publisher",
+        "title": "?diteur du site",
+        "body": "Le site est ?dit? pour Jobs in Bulgaria, structure priv?e d?accompagnement destin?e principalement aux candidats tunisiens souhaitant pr?parer un projet professionnel en Bulgarie."
+      },
+      {
+        "id": "service",
+        "title": "Nature du service",
+        "body": "Les informations présentées ont une vocation d'orientation. Elles ne constituent pas un conseil juridique et ne remplacent pas les informations officielles des autorités compétentes."
+      },
+      {
+        "id": "responsibility",
+        "title": "Responsabilité",
+        "body": "Jobs in Bulgaria ne garantit pas une embauche, un visa, une autorisation de travail ou l'acceptation d'un dossier."
+      }
+    ]
+  },
+  "privacy": {
+    "items": [
+      {
+        "id": "data",
+        "title": "Données collectées",
+        "body": "Les données envoyées via le formulaire servent uniquement à analyser votre demande et à vous recontacter."
+      },
+      {
+        "id": "confidentiality",
+        "title": "Confidentialité",
+        "body": "Les informations personnelles ne doivent pas être partagées avec des tiers sans base légitime ou accord explicite."
+      },
+      {
+        "id": "contact",
+        "title": "Contact",
+        "body": "Pour toute question relative à vos données, contactez l'agence par email ou WhatsApp."
+      }
+    ]
+  },
+  "errors": {
+    "generic": "Une erreur est survenue. Veuillez réessayer."
+  }
+}

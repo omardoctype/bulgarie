@@ -1,0 +1,1164 @@
+{
+  "agency": {
+    "name": "Jobs in Bulgaria",
+    "tagline": "Complete follow-up through the visa stage",
+    "heroText": "A private support agency mainly for Tunisian candidates preparing a professional project in Bulgaria from Tunisia.",
+    "address": "Address to be configured",
+    "signatureArabic": "هنا بدأت رحلتي نحو النسخة الأقوى مني.",
+    "signatureTranslation": "This is where my journey toward a stronger version of myself began.",
+    "footerNotice": "Jobs in Bulgaria is a private support structure mainly intended for Tunisian candidates preparing a professional project in Bulgaria. It is neither an embassy, nor a consulate, nor a public administration. The agency does not guarantee hiring, obtaining a visa or any administrative authorization. Final decisions belong to employers, administrations and competent authorities."
+  },
+  "nav": {
+    "home": "Home",
+    "opportunities": "Opportunities",
+    "services": "Services",
+    "about": "About",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "legal": "Legal notice",
+    "privacy": "Privacy"
+  },
+  "actions": {
+    "apply": "Request an assessment",
+    "whatsapp": "WhatsApp",
+    "viewJobs": "View opportunities",
+    "viewServices": "View services",
+    "learnMore": "Learn more",
+    "contact": "Contact us",
+    "send": "Send request",
+    "backHome": "Back to home",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "discoverSupport": "Discover our support",
+    "startApplication": "Start my application",
+    "viewRoles": "View roles",
+    "details": "View details",
+    "applyWhatsapp": "Apply on WhatsApp",
+    "backOpportunities": "Back to opportunities"
+  },
+  "labels": {
+    "language": "Language",
+    "menu": "Menu",
+    "privateAgency": "Private agency",
+    "noGuarantee": "No automatic guarantee",
+    "featuredJobs": "Opportunities to explore",
+    "selectedServices": "Complete support",
+    "process": "Candidate journey",
+    "testimonials": "Candidate feedback",
+    "commonQuestions": "Frequently asked questions",
+    "contactDirect": "Direct contact",
+    "availability": "Reply within 24 to 48 business hours",
+    "breadcrumb": "Breadcrumb",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "location": "Location",
+    "sector": "Sector",
+    "languages": "Languages",
+    "contract": "Contract"
+  },
+  "floatingWhatsApp": {
+    "label": "Contact Jobs in Bulgaria on WhatsApp",
+    "tooltip": "Need help? Message us"
+  },
+  "contactSection": {
+    "eyebrow": "Contact Tunisia",
+    "title": "Contact us from Tunisia",
+    "text": "Are you in Tunisia and want to prepare your professional project in Bulgaria? Send us your information and our team will guide you.",
+    "formTitle": "Send a message",
+    "socialsTitle": "Social networks",
+    "hoursLabel": "Hours",
+    "hours": "Hours to be configured",
+    "emailPlaceholder": "Email to be configured",
+    "addressPlaceholder": "Address to be configured",
+    "socialPlaceholder": "to be configured",
+    "visaBlockTitle": "Complete follow-up through the visa stage",
+    "visaBlockWhatsapp": "WhatsApp",
+    "arabicLine": "هنا تبدأ رحلتك من تونس نحو فرصة جديدة في بلغاريا."
+  },
+  "footer": {
+    "description": "A private support agency mainly for Tunisian candidates preparing a professional opportunity in Bulgaria from Tunisia.",
+    "navigation": "Navigation",
+    "services": "Services",
+    "information": "Information",
+    "contact": "Contact",
+    "legalWarning": "Jobs in Bulgaria is a private support structure mainly intended for Tunisian candidates preparing a professional project in Bulgaria. It is neither an embassy, nor a consulate, nor a public administration. The agency does not guarantee hiring, obtaining a visa or any administrative authorization. Final decisions belong to employers, administrations and competent authorities.",
+    "copyright": "© {{year}} Jobs in Bulgaria. All rights reserved."
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Jobs in Bulgaria Tunisia | Work in Bulgaria for Tunisians",
+        "description": "Jobs in Bulgaria supports Tunisian candidates with their application, file preparation and follow-up for working in Bulgaria."
+      },
+      "opportunities": {
+        "title": "Professional opportunities in Bulgaria for Tunisians | Jobs in Bulgaria",
+        "description": "Browse available fields for Tunisian candidates and send your profile for personalized guidance toward professional opportunities in Bulgaria."
+      },
+      "services": {
+        "title": "Bulgaria visa support Tunisia | Jobs in Bulgaria",
+        "description": "Prepare your file from Tunisia with clear support for your application, documents, follow-up and departure to Bulgaria."
+      },
+      "about": {
+        "title": "Jobs in Bulgaria Tunisia | About",
+        "description": "Discover Jobs in Bulgaria, a private support structure for Tunisian profiles preparing a professional project in Bulgaria."
+      },
+      "faq": {
+        "title": "FAQ Tunisia Bulgaria | Jobs in Bulgaria",
+        "description": "Answers to common questions from Tunisians about working in Bulgaria, files, passports, visas and opportunities."
+      },
+      "contact": {
+        "title": "Contact Jobs in Bulgaria Tunisia",
+        "description": "Contact Jobs in Bulgaria from Tunisia via WhatsApp to send your profile or ask questions about your project in Bulgaria."
+      },
+      "legal": {
+        "title": "Legal notice | Jobs in Bulgaria Tunisia",
+        "description": "Read the legal notice for Jobs in Bulgaria, a private support structure for Tunisian candidates."
+      },
+      "privacy": {
+        "title": "Privacy policy | Jobs in Bulgaria Tunisia",
+        "description": "Read the privacy principles applied to information sent via the website or WhatsApp."
+      },
+      "notFound": {
+        "title": "Page not found | Jobs in Bulgaria Tunisia",
+        "description": "The requested page could not be found. Return home or send your profile to Jobs in Bulgaria."
+      }
+    }
+  },
+  "pages": {
+    "opportunities": {
+      "title": "Professional opportunities in Bulgaria for Tunisians",
+      "intro": "Browse available fields and send your profile for personalized guidance."
+    },
+    "services": {
+      "title": "Services to move forward clearly",
+      "intro": "Structured support to prepare your application, documents and departure while keeping the agency role clear."
+    },
+    "about": {
+      "title": "An agency specialized in Bulgaria",
+      "intro": "Jobs in Bulgaria supports candidates with a human, methodical and transparent approach."
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "intro": "Essential answers before starting your project."
+    },
+    "contact": {
+      "title": "Let's talk about your project",
+      "intro": "Send your request or contact the team directly on WhatsApp."
+    },
+    "legal": {
+      "title": "Legal notice",
+      "intro": "General information about the publisher, service nature and liability limits."
+    },
+    "privacy": {
+      "title": "Privacy policy",
+      "intro": "Basic principles regarding information sent through the website."
+    },
+    "notFound": {
+      "title": "Page not found",
+      "intro": "The requested page does not exist or has been moved."
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "From Tunisia to Bulgaria",
+      "title": "Work in Bulgaria with support from Tunisia",
+      "subtitle": "Jobs in Bulgaria supports Tunisian candidates with their application, file follow-up and required steps until departure.",
+      "visaLine": "Complete follow-up through the visa stage",
+      "arabicLine": "نعاونك خطوة بخطوة من تونس إلى بلغاريا",
+      "primaryCta": "Send my application",
+      "whatsappCta": "Talk on WhatsApp",
+      "whatsappLabel": "WhatsApp",
+      "floatingTitle": "Tunisian candidates",
+      "floatingSubtitle": "WhatsApp follow-up",
+      "imageAlt": "Young Tunisian candidates preparing a professional departure to Bulgaria.",
+      "trustItems": [
+        "Support from Tunisia",
+        "Personalized file follow-up",
+        "Pre-departure preparation"
+      ]
+    },
+    "mainServices": {
+      "eyebrow": "Our support",
+      "title": "Support designed for Tunisian candidates",
+      "cards": [
+        {
+          "id": "profile-analysis",
+          "icon": "users",
+          "title": "Profile analysis",
+          "description": "We review your background, languages, experience and availability from Tunisia."
+        },
+        {
+          "id": "application-preparation",
+          "icon": "fileCheck",
+          "title": "Application preparation",
+          "description": "We help you organize the information needed to present your profile properly."
+        },
+        {
+          "id": "opportunity-orientation",
+          "icon": "briefcase",
+          "title": "Opportunity guidance",
+          "description": "We guide you toward available roles according to your level, languages and field."
+        },
+        {
+          "id": "visa-follow-up",
+          "icon": "clipboardCheck",
+          "title": "Follow-up through visa",
+          "description": "We provide clear file follow-up and guide you through administrative steps until departure."
+        },
+        {
+          "id": "departure-preparation",
+          "icon": "plane",
+          "title": "Pre-departure preparation",
+          "description": "We give you useful information before your installation in Bulgaria."
+        },
+        {
+          "id": "whatsapp-follow-up",
+          "icon": "headset",
+          "title": "WhatsApp follow-up",
+          "description": "You can follow the progress of your request directly through WhatsApp."
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About our agency",
+      "title": "From your first application in Tunisia to your installation in Bulgaria",
+      "text": "Jobs in Bulgaria supports Tunisian profiles who want to build a professional path in Bulgaria. Our goal is to make each step clearer, better organized and more reassuring.",
+      "badge": "Support for Tunisian profiles",
+      "mainImageAlt": "Tunisian candidates preparing a professional application",
+      "secondaryImageAlt": "CV and documents organized for an application in Bulgaria",
+      "items": [
+        "Profile analysis from Tunisia",
+        "Guidance toward suitable opportunities",
+        "Assistance preparing the CV and file",
+        "Personalized follow-up via WhatsApp",
+        "Pre-departure preparation toward Bulgaria"
+      ]
+    },
+    "whyBulgaria": {
+      "title": "Why can Bulgaria be an interesting step for your project from Tunisia?",
+      "cta": "View available opportunities",
+      "cards": [
+        {
+          "id": "international-opportunities",
+          "icon": "globe",
+          "title": "Professional opportunities",
+          "description": "Companies in Bulgaria regularly look for multilingual profiles depending on their needs."
+        },
+        {
+          "id": "multicultural-environment",
+          "icon": "users",
+          "title": "Multicultural environment",
+          "description": "Some roles allow you to work with international teams and several languages."
+        },
+        {
+          "id": "career-development",
+          "icon": "route",
+          "title": "Career development",
+          "description": "Experience in Bulgaria can strengthen a path in customer service, support, digital or operations."
+        },
+        {
+          "id": "european-experience",
+          "icon": "map",
+          "title": "European experience",
+          "description": "Living and working in Bulgaria can help you discover a European professional setting."
+        }
+      ]
+    },
+    "prepareProject": {
+      "eyebrow": "Prepare your departure",
+      "title": "Let’s build your project from Tunisia",
+      "text": "A successful departure starts with clear preparation. We help you understand the main steps before your arrival in Bulgaria.",
+      "imageAlt": "Professional departure from Tunisia to Bulgaria",
+      "items": [
+        "Profile and application",
+        "CV and required documents",
+        "Administrative preparation",
+        "Pre-departure advice"
+      ],
+      "floatingTitle": "Personalized follow-up",
+      "floatingContactLabel": "WhatsApp"
+    },
+    "simpleProcess": {
+      "title": "Your departure from Tunisia to Bulgaria in clear steps",
+      "steps": [
+        {
+          "id": "send-info",
+          "icon": "file",
+          "title": "Send your information",
+          "description": "Name, country, city, languages, experience and availability."
+        },
+        {
+          "id": "profile-review",
+          "icon": "search",
+          "title": "Profile review",
+          "description": "Your profile is reviewed to identify suitable opportunities."
+        },
+        {
+          "id": "file-preparation",
+          "icon": "documents",
+          "title": "File preparation",
+          "description": "We guide you on the information and documents needed according to your situation."
+        },
+        {
+          "id": "application-follow-up",
+          "icon": "clipboardCheck",
+          "title": "Application follow-up",
+          "description": "You receive personalized follow-up while your request progresses."
+        },
+        {
+          "id": "departure-preparation",
+          "icon": "plane",
+          "title": "Departure preparation",
+          "description": "We support you before your departure to Bulgaria."
+        }
+      ]
+    },
+    "professionalSectors": {
+      "eyebrow": "Available fields",
+      "title": "Sectors often requested in Bulgaria",
+      "note": "Opportunities may change depending on partner company needs. Sending a profile does not automatically guarantee hiring.",
+      "cta": "View roles",
+      "sectors": [
+        {
+          "id": "customer-support",
+          "icon": "headset",
+          "title": "Customer Support",
+          "description": "Roles may vary according to company needs, language level and candidate profile."
+        },
+        {
+          "id": "content-moderation",
+          "icon": "shield",
+          "title": "Content Moderation",
+          "description": "Roles may vary according to company needs, language level and candidate profile."
+        },
+        {
+          "id": "it-digital",
+          "icon": "monitor",
+          "title": "IT and digital",
+          "description": "Roles may vary according to company needs, language level and candidate profile."
+        },
+        {
+          "id": "customer-relations",
+          "icon": "users",
+          "title": "Customer relations",
+          "description": "Roles may vary according to company needs, language level and candidate profile."
+        },
+        {
+          "id": "sales",
+          "icon": "shopping",
+          "title": "Sales",
+          "description": "Roles may vary according to company needs, language level and candidate profile."
+        },
+        {
+          "id": "logistics",
+          "icon": "warehouse",
+          "title": "Logistics",
+          "description": "Roles may vary according to company needs, language level and candidate profile."
+        },
+        {
+          "id": "hospitality-services",
+          "icon": "utensils",
+          "title": "Hospitality and services",
+          "description": "Roles may vary according to company needs, language level and candidate profile."
+        },
+        {
+          "id": "multilingual-support",
+          "icon": "language",
+          "title": "Multilingual support",
+          "description": "Roles may vary according to company needs, language level and candidate profile."
+        }
+      ]
+    },
+    "adminStats": {
+      "title": "Key figures",
+      "placeholder": "To be added",
+      "items": [
+        {
+          "label": "Supported candidates"
+        },
+        {
+          "label": "Profiles reviewed"
+        },
+        {
+          "label": "Partner companies"
+        },
+        {
+          "label": "Supported languages"
+        }
+      ]
+    },
+    "whoFor": {
+      "eyebrow": "Tunisian profiles",
+      "title": "Who is this support for?",
+      "text": "This support is for Tunisians who want to seriously prepare a professional opportunity in Bulgaria with clear steps from Tunisia.",
+      "routeFrom": "Tunisia",
+      "routeTo": "Bulgaria",
+      "cards": [
+        {
+          "id": "graduates",
+          "title": "Young Tunisian graduates",
+          "description": "You are looking for a first professional experience in Bulgaria."
+        },
+        {
+          "id": "experienced",
+          "title": "Experienced profiles",
+          "description": "You already have experience and want to develop your career abroad."
+        },
+        {
+          "id": "multilingual",
+          "title": "Multilingual candidates",
+          "description": "You speak French, English, Arabic or other useful languages for international roles."
+        },
+        {
+          "id": "motivated",
+          "title": "Motivated to leave",
+          "description": "You want to prepare your project seriously from Tunisia."
+        }
+      ]
+    }
+  },
+  "services": {
+    "items": [
+      {
+        "id": "profile-analysis",
+        "icon": "users",
+        "title": "Profile analysis",
+        "description": "We review your background, languages, experience and availability from Tunisia.",
+        "points": [
+          "Clear steps",
+          "WhatsApp follow-up",
+          "No automatic guarantee"
+        ]
+      },
+      {
+        "id": "application-preparation",
+        "icon": "fileCheck",
+        "title": "Application preparation",
+        "description": "We help you organize the information needed to present your profile properly.",
+        "points": [
+          "Clear steps",
+          "WhatsApp follow-up",
+          "No automatic guarantee"
+        ]
+      },
+      {
+        "id": "opportunity-orientation",
+        "icon": "briefcase",
+        "title": "Opportunity guidance",
+        "description": "We guide you toward available roles according to your level, languages and field.",
+        "points": [
+          "Clear steps",
+          "WhatsApp follow-up",
+          "No automatic guarantee"
+        ]
+      },
+      {
+        "id": "visa-follow-up",
+        "icon": "clipboardCheck",
+        "title": "Follow-up through visa",
+        "description": "We provide clear file follow-up and guide you through administrative steps until departure.",
+        "points": [
+          "Clear steps",
+          "WhatsApp follow-up",
+          "No automatic guarantee"
+        ]
+      },
+      {
+        "id": "departure-preparation",
+        "icon": "plane",
+        "title": "Pre-departure preparation",
+        "description": "We give you useful information before your installation in Bulgaria.",
+        "points": [
+          "Clear steps",
+          "WhatsApp follow-up",
+          "No automatic guarantee"
+        ]
+      },
+      {
+        "id": "whatsapp-follow-up",
+        "icon": "headset",
+        "title": "WhatsApp follow-up",
+        "description": "You can follow the progress of your request directly through WhatsApp.",
+        "points": [
+          "Clear steps",
+          "WhatsApp follow-up",
+          "No automatic guarantee"
+        ]
+      }
+    ],
+    "processTitle": "Complete follow-up through the visa stage",
+    "processText": "Support remains methodical and transparent. Jobs in Bulgaria does not replace employers, administrations or competent authorities.",
+    "processSteps": [
+      {
+        "id": "send-info",
+        "title": "Send your information",
+        "description": "Name, country, city, languages, experience and availability."
+      },
+      {
+        "id": "profile-review",
+        "title": "Profile review",
+        "description": "Your profile is reviewed to identify suitable opportunities."
+      },
+      {
+        "id": "file-preparation",
+        "title": "File preparation",
+        "description": "We guide you on the information and documents needed according to your situation."
+      },
+      {
+        "id": "application-follow-up",
+        "title": "Application follow-up",
+        "description": "You receive personalized follow-up while your request progresses."
+      },
+      {
+        "id": "departure-preparation",
+        "title": "Departure preparation",
+        "description": "We support you before your departure to Bulgaria."
+      }
+    ]
+  },
+  "about": {
+    "values": [
+      {
+        "id": "transparency",
+        "title": "Transparency",
+        "body": "Clear support, without automatic promises or ambiguous messaging about external decisions."
+      },
+      {
+        "id": "method",
+        "title": "Method",
+        "body": "Each application moves forward with visible steps, priorities and organized documents."
+      },
+      {
+        "id": "respect",
+        "title": "Respect for candidates",
+        "body": "We take the time to understand your profile and explain both limits and possibilities."
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "id": "tunisians",
+        "question": "Is the service intended for Tunisians?",
+        "answer": "Yes, Jobs in Bulgaria mainly supports Tunisian candidates preparing a professional project in Bulgaria."
+      },
+      {
+        "id": "apply-from-tunisia",
+        "question": "Can I apply from Tunisia?",
+        "answer": "Yes, you can send your information from Tunisia through the form or WhatsApp."
+      },
+      {
+        "id": "job-guarantee",
+        "question": "Do you guarantee a job?",
+        "answer": "No. The agency supports candidates and helps guide them toward available opportunities. The final decision always belongs to the employer."
+      },
+      {
+        "id": "visa-guarantee",
+        "question": "Do you guarantee the visa?",
+        "answer": "No. Decisions about visas, authorizations and official documents belong only to competent authorities."
+      },
+      {
+        "id": "english-level",
+        "question": "What English level is required?",
+        "answer": "It depends on the role. Some roles require an intermediate level, others require a stronger level. It is important to indicate your real level."
+      },
+      {
+        "id": "french-useful",
+        "question": "Is French useful?",
+        "answer": "Yes, some roles may value French, especially in customer service or multilingual roles."
+      },
+      {
+        "id": "passport",
+        "question": "Do I need a passport?",
+        "answer": "A valid passport may be required for some steps. If you do not have one yet, mention it in your application."
+      },
+      {
+        "id": "send-profile",
+        "question": "How do I send my profile?",
+        "answer": "You can fill in the form or send your information directly via WhatsApp at +359 888 626 203."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Better prepared candidates move forward with more confidence.",
+    "text": "These comments illustrate the kind of support candidates look for: clarity, organization and continuous communication.",
+    "items": [
+      {
+        "id": "sarah",
+        "name": "Sarah M.",
+        "role": "Professional project",
+        "quote": "I needed a clear framework. The team helped me understand the steps and present my profile more professionally."
+      },
+      {
+        "id": "yassine",
+        "name": "Yassine B.",
+        "role": "Customer support profile",
+        "quote": "The follow-up was serious, especially for documents and interview preparation. I always knew the next action."
+      },
+      {
+        "id": "nour",
+        "name": "Nour E.",
+        "role": "Mobility project",
+        "quote": "Communication in Arabic and French reassured me. I moved forward more calmly and with less confusion."
+      }
+    ]
+  },
+  "applicationForm": {
+    "sectionEyebrow": "Application from Tunisia",
+    "sectionTitle": "Send your application from Tunisia",
+    "sectionIntro": "Fill in the essential information. Your application will be prepared for WhatsApp so you can send it directly to Jobs in Bulgaria.",
+    "privacyNote": "The information provided will only be used to review your request and contact you about Jobs in Bulgaria services.",
+    "redirectNotice": "Your application will be sent via WhatsApp. No data is stored on the website for now.",
+    "submit": "Prepare my WhatsApp application",
+    "fields": {
+      "lastName": "Last name",
+      "firstName": "First name",
+      "age": "Age",
+      "tunisianCity": "City in Tunisia",
+      "governorate": "Governorate",
+      "whatsapp": "WhatsApp number",
+      "email": "Email",
+      "educationLevel": "Education level",
+      "experienceDomain": "Experience field",
+      "experienceYears": "Years of experience",
+      "spokenLanguages": "Spoken languages",
+      "englishLevel": "English level",
+      "frenchLevel": "French level",
+      "arabicLevel": "Arabic level",
+      "availability": "Availability to leave",
+      "validPassport": "Do you have a valid passport?",
+      "workedAbroad": "Have you worked abroad before?",
+      "message": "Additional message",
+      "consent": "I accept the privacy policy and the processing of my information to review my request."
+    },
+    "placeholders": {
+      "lastName": "Your last name",
+      "firstName": "Your first name",
+      "age": "E.g. 24",
+      "tunisianCity": "E.g. Tunis, Sfax, Sousse...",
+      "email": "your@email.com",
+      "whatsapp": "+216...",
+      "spokenLanguages": "E.g. Arabic, French, English",
+      "select": "Select an option",
+      "experienceYears": "E.g. 3",
+      "message": "Add any useful information about your profile, availability or project."
+    },
+    "languageLevels": [
+      {
+        "value": "a1",
+        "label": "Beginner A1"
+      },
+      {
+        "value": "a2",
+        "label": "Elementary A2"
+      },
+      {
+        "value": "b1",
+        "label": "Intermediate B1"
+      },
+      {
+        "value": "b2",
+        "label": "Upper intermediate B2"
+      },
+      {
+        "value": "c1",
+        "label": "Advanced C1"
+      },
+      {
+        "value": "c2",
+        "label": "Proficient C2"
+      }
+    ],
+    "domains": [
+      {
+        "value": "customer-support",
+        "label": "Customer Support"
+      },
+      {
+        "value": "content-moderation",
+        "label": "Content Moderation"
+      },
+      {
+        "value": "it-digital",
+        "label": "IT and digital"
+      },
+      {
+        "value": "customer-relations",
+        "label": "Customer relations"
+      },
+      {
+        "value": "sales",
+        "label": "Sales"
+      },
+      {
+        "value": "logistics",
+        "label": "Logistics"
+      },
+      {
+        "value": "hospitality-services",
+        "label": "Hospitality and services"
+      },
+      {
+        "value": "multilingual-support",
+        "label": "Multilingual support"
+      },
+      {
+        "value": "other",
+        "label": "Other field"
+      }
+    ],
+    "availabilityOptions": [
+      {
+        "value": "immediate",
+        "label": "Available immediately"
+      },
+      {
+        "value": "one-month",
+        "label": "Available within one month"
+      },
+      {
+        "value": "two-three-months",
+        "label": "Available within two to three months"
+      },
+      {
+        "value": "to-discuss",
+        "label": "To discuss"
+      }
+    ],
+    "errors": {
+      "lastName": "Enter your last name.",
+      "firstName": "Enter your first name.",
+      "age": "Enter a valid age.",
+      "tunisianCity": "Enter your city in Tunisia.",
+      "governorate": "Select your governorate.",
+      "whatsapp": "Enter a valid WhatsApp number.",
+      "email": "Enter a valid email.",
+      "educationLevel": "Select your education level.",
+      "experienceDomain": "Select your experience field.",
+      "experienceYears": "Enter a valid number of years of experience.",
+      "spokenLanguages": "Enter at least one spoken language.",
+      "englishLevel": "Select your English level.",
+      "frenchLevel": "Select your French level.",
+      "arabicLevel": "Select your Arabic level.",
+      "availability": "Select your availability.",
+      "validPassport": "Specify your passport situation.",
+      "workedAbroad": "Specify whether you have worked abroad before.",
+      "message": "Your message must contain at least 10 characters.",
+      "consent": "Your consent is required before sending."
+    },
+    "whatsappMessage": "New application from Tunisia — Jobs in Bulgaria\n\nFull name: {{firstName}} {{lastName}}\nAge: {{age}}\nCity: {{tunisianCity}}\nGovernorate: {{governorate}}\nWhatsApp: {{whatsapp}}\nEmail: {{email}}\nEducation level: {{educationLevel}}\nField: {{experienceDomain}}\nExperience: {{experienceYears}}\nLanguages: {{spokenLanguages}}\nEnglish level: {{englishLevel}}\nFrench level: {{frenchLevel}}\nArabic level: {{arabicLevel}}\nValid passport: {{validPassport}}\nWorked abroad: {{workedAbroad}}\nAvailability: {{availability}}\nMessage: {{message}}",
+    "governorates": [
+      {
+        "value": "tunis",
+        "label": "Tunis"
+      },
+      {
+        "value": "ariana",
+        "label": "Ariana"
+      },
+      {
+        "value": "ben-arous",
+        "label": "Ben Arous"
+      },
+      {
+        "value": "manouba",
+        "label": "Manouba"
+      },
+      {
+        "value": "nabeul",
+        "label": "Nabeul"
+      },
+      {
+        "value": "zaghouan",
+        "label": "Zaghouan"
+      },
+      {
+        "value": "bizerte",
+        "label": "Bizerte"
+      },
+      {
+        "value": "beja",
+        "label": "Béja"
+      },
+      {
+        "value": "jendouba",
+        "label": "Jendouba"
+      },
+      {
+        "value": "kef",
+        "label": "Kef"
+      },
+      {
+        "value": "siliana",
+        "label": "Siliana"
+      },
+      {
+        "value": "sousse",
+        "label": "Sousse"
+      },
+      {
+        "value": "monastir",
+        "label": "Monastir"
+      },
+      {
+        "value": "mahdia",
+        "label": "Mahdia"
+      },
+      {
+        "value": "sfax",
+        "label": "Sfax"
+      },
+      {
+        "value": "kairouan",
+        "label": "Kairouan"
+      },
+      {
+        "value": "kasserine",
+        "label": "Kasserine"
+      },
+      {
+        "value": "sidi-bouzid",
+        "label": "Sidi Bouzid"
+      },
+      {
+        "value": "gabes",
+        "label": "Gabès"
+      },
+      {
+        "value": "medenine",
+        "label": "Médenine"
+      },
+      {
+        "value": "tataouine",
+        "label": "Tataouine"
+      },
+      {
+        "value": "gafsa",
+        "label": "Gafsa"
+      },
+      {
+        "value": "tozeur",
+        "label": "Tozeur"
+      },
+      {
+        "value": "kebili",
+        "label": "Kébili"
+      }
+    ],
+    "educationLevels": [
+      {
+        "value": "secondary",
+        "label": "Secondary school"
+      },
+      {
+        "value": "bac",
+        "label": "Baccalaureate"
+      },
+      {
+        "value": "bts",
+        "label": "BTS / BTP"
+      },
+      {
+        "value": "licence",
+        "label": "Bachelor degree"
+      },
+      {
+        "value": "master",
+        "label": "Master degree"
+      },
+      {
+        "value": "engineering",
+        "label": "Engineering degree"
+      },
+      {
+        "value": "vocational",
+        "label": "Vocational training"
+      },
+      {
+        "value": "other",
+        "label": "Other"
+      }
+    ],
+    "passportOptions": [
+      {
+        "value": "yes",
+        "label": "Yes"
+      },
+      {
+        "value": "no",
+        "label": "No"
+      },
+      {
+        "value": "in-progress",
+        "label": "In progress"
+      }
+    ],
+    "workedAbroadOptions": [
+      {
+        "value": "yes",
+        "label": "Yes"
+      },
+      {
+        "value": "no",
+        "label": "No"
+      }
+    ]
+  },
+  "form": {
+    "name": "Full name",
+    "email": "Email",
+    "phone": "Phone / WhatsApp",
+    "subject": "Subject",
+    "subjectPlaceholder": "Choose a subject",
+    "message": "Your message",
+    "consent": "I agree to be contacted about my request.",
+    "success": "You will be redirected to WhatsApp to send your message.",
+    "submitWhatsapp": "Send on WhatsApp",
+    "placeholders": {
+      "name": "Your name",
+      "email": "your@email.com",
+      "phone": "+216...",
+      "message": "Describe your profile, experience and project."
+    },
+    "subjects": [
+      {
+        "value": "diagnostic",
+        "label": "Profile assessment"
+      },
+      {
+        "value": "jobs",
+        "label": "Job opportunities"
+      },
+      {
+        "value": "documents",
+        "label": "Documents and file"
+      },
+      {
+        "value": "visa",
+        "label": "Visa guidance"
+      },
+      {
+        "value": "other",
+        "label": "Other request"
+      }
+    ],
+    "errors": {
+      "name": "Enter at least 2 characters.",
+      "email": "Enter a valid email.",
+      "phone": "Enter at least 6 characters.",
+      "subject": "Choose a subject.",
+      "message": "Your message must contain at least 20 characters.",
+      "consent": "Your agreement is required so we can contact you."
+    },
+    "whatsappMessage": "New message — Jobs in Bulgaria\n\nName: {{name}}\nEmail: {{email}}\nPhone: {{phone}}\nSubject: {{subject}}\nMessage: {{message}}"
+  },
+  "opportunities": {
+    "eyebrow": "Tunisia to Bulgaria",
+    "breadcrumbHome": "Home",
+    "breadcrumbCurrent": "Opportunities",
+    "emptyActive": "No opportunity is currently published. Contact us on WhatsApp to send your profile from Tunisia.",
+    "demoNotice": "The cards below are sample fields and only show how opportunities are structured.",
+    "availableTitle": "Available roles",
+    "demoTitle": "Example fields",
+    "results_one": "{{count}} result shown",
+    "results_other": "{{count}} results shown",
+    "noFilterTitle": "No result for these filters",
+    "noFilterText": "No opportunity matches these filters. You can send us your profile for personalized guidance.",
+    "spontaneousTitle": "Application from Tunisia",
+    "demoBadge": "Example role",
+    "featuredBadge": "Featured",
+    "inactiveBadge": "Not published as an active role",
+    "notFoundEyebrow": "Opportunities",
+    "notFoundTitle": "Role not found",
+    "notFoundText": "This opportunity does not exist or has been removed.",
+    "descriptionTitle": "Job description",
+    "requirementsTitle": "Desired profile",
+    "benefitsTitle": "Possible elements depending on the role",
+    "applyTitle": "Apply via WhatsApp",
+    "applyText": "The message is prepared automatically with the role name. Complete your information before sending.",
+    "demoDetailNotice": "This is an example role. It does not correspond to an active published opportunity.",
+    "whatsappMessage": "Hello, I would like more information about this role: {{title}}.\n\nFull name:\nCity in Tunisia:\nGovernorate:\nSpoken languages:\nExperience:\nAvailability:",
+    "filters": {
+      "keyword": "Keyword",
+      "keywordPlaceholder": "Field, language, experience...",
+      "sector": "Field",
+      "language": "Required language",
+      "experienceLevel": "Experience level",
+      "availability": "Availability",
+      "currentCity": "Current city in Tunisia",
+      "all": "All"
+    },
+    "experienceLevels": [
+      {
+        "value": "junior",
+        "label": "Beginner / junior"
+      },
+      {
+        "value": "experienced",
+        "label": "Experienced"
+      },
+      {
+        "value": "all-levels",
+        "label": "All levels"
+      }
+    ],
+    "currentCities": [
+      {
+        "value": "tunis",
+        "label": "Tunis"
+      },
+      {
+        "value": "sfax",
+        "label": "Sfax"
+      },
+      {
+        "value": "sousse",
+        "label": "Sousse"
+      },
+      {
+        "value": "other",
+        "label": "Other city in Tunisia"
+      }
+    ],
+    "note": "Opportunities may change depending on partner company needs. Sending a profile does not automatically guarantee hiring."
+  },
+  "jobs": {
+    "companyExample": "Example partner company",
+    "locations": {
+      "sofia": "Sofia",
+      "plovdiv": "Plovdiv"
+    },
+    "sectors": {
+      "customerSupport": "Customer Support",
+      "contentModeration": "Content Moderation",
+      "itDigital": "IT and digital",
+      "logistics": "Logistics",
+      "customerRelations": "Customer relations",
+      "sales": "Sales",
+      "hospitalityServices": "Hospitality and services",
+      "multilingualSupport": "Multilingual support"
+    },
+    "contractTypes": {
+      "fullTime": "Full time"
+    },
+    "languages": {
+      "french": "French",
+      "english": "English",
+      "arabic": "Arabic"
+    },
+    "experienceLevels": {
+      "junior": "Beginner / junior",
+      "experienced": "Experienced",
+      "allLevels": "All levels"
+    },
+    "availability": {
+      "immediate": "Available quickly",
+      "oneMonth": "Within one month",
+      "flexible": "Flexible"
+    },
+    "currentCities": {
+      "tunis": "Tunis",
+      "sfax": "Sfax",
+      "sousse": "Sousse",
+      "allTunisia": "All Tunisia"
+    },
+    "demoCustomerSupport": {
+      "title": "French-speaking customer advisor",
+      "description": "Example customer relations role for Tunisian French-speaking profiles who want to work in Bulgaria.",
+      "requirements": [
+        "Good spoken and written French",
+        "Comfortable with digital tools",
+        "Motivation to prepare a departure from Tunisia"
+      ],
+      "benefits": [
+        "International work setting",
+        "Internal training depending on the role",
+        "Support preparing the file"
+      ]
+    },
+    "demoContentModeration": {
+      "title": "Multilingual content moderator",
+      "description": "Example content review and moderation mission for candidates speaking Arabic, French or English.",
+      "requirements": [
+        "Analytical skills and attention to detail",
+        "Respect for guidelines and confidentiality",
+        "Availability to work in a structured environment"
+      ],
+      "benefits": [
+        "Multicultural environment",
+        "Structured process",
+        "Possible skill development depending on profile"
+      ]
+    },
+    "demoItSupportJunior": {
+      "title": "Junior IT support",
+      "description": "Example junior role for Tunisian candidates with basics in IT, user support or digital tools.",
+      "requirements": [
+        "Basics in IT or user support",
+        "Operational English",
+        "Organization and willingness to learn"
+      ],
+      "benefits": [
+        "Experience in an international context",
+        "Possible training depending on profile",
+        "Pre-departure support"
+      ]
+    },
+    "demoLogisticsCoordinator": {
+      "title": "Junior logistics coordinator",
+      "description": "Example operational coordination role involving flow follow-up and communication with internal teams.",
+      "requirements": [
+        "Good sense of organization",
+        "Clear communication",
+        "Professional English appreciated"
+      ],
+      "benefits": [
+        "Discovery of a European operational environment",
+        "Teamwork",
+        "Structured application follow-up"
+      ]
+    }
+  },
+  "legal": {
+    "items": [
+      {
+        "id": "publisher",
+        "title": "Website publisher",
+        "body": "The website is published for Jobs in Bulgaria, a private support structure mainly intended for Tunisian candidates preparing a professional project in Bulgaria."
+      },
+      {
+        "id": "service",
+        "title": "Nature of the service",
+        "body": "The information presented is for guidance purposes. It does not constitute legal advice and does not replace official information from competent authorities."
+      },
+      {
+        "id": "responsibility",
+        "title": "Responsibility",
+        "body": "Jobs in Bulgaria does not guarantee hiring, a visa, a work authorization or file acceptance."
+      }
+    ]
+  },
+  "privacy": {
+    "items": [
+      {
+        "id": "data",
+        "title": "Collected data",
+        "body": "Data sent through the form is used only to analyze your request and contact you again."
+      },
+      {
+        "id": "confidentiality",
+        "title": "Confidentiality",
+        "body": "Personal information should not be shared with third parties without a legitimate basis or explicit agreement."
+      },
+      {
+        "id": "contact",
+        "title": "Contact",
+        "body": "For any question about your data, contact the agency by email or WhatsApp."
+      }
+    ]
+  },
+  "errors": {
+    "generic": "An error occurred. Please try again."
+  }
+}
