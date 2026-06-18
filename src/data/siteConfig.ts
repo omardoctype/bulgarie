@@ -1,8 +1,10 @@
 import type { SiteConfig } from '../types/site'
 
 export const siteConfig: SiteConfig = {
+  brandName: 'Hello Dreams',
+  siteName: 'Hello Dreams',
   agency: {
-    name: 'Jobs in Bulgaria',
+    name: 'Hello Dreams',
     tagline: {
       fr: "Suivi complet jusqu'au visa",
       ar: 'متابعة كاملة إلى غاية الفيزا',
@@ -20,9 +22,11 @@ export const siteConfig: SiteConfig = {
       fr: "C'est ici que mon voyage vers une meilleure version de moi-meme a commence.",
       ar: 'هنا بدأت رحلتي نحو نسخة افضل من نفسي.',
     },
-    whatsapp: '+359 888 626 203',
+    phone: '+359888626203',
+    whatsapp: '+359888626203',
     whatsappLink: 'https://wa.me/359888626203',
-    email: '',
+    whatsappUrl: 'https://wa.me/359888626203',
+    email: 'hellodreams2025@gmail.com',
     address: {
       fr: 'Sofia, Bulgarie - accompagnement international a distance',
       ar: 'صوفيا، بلغاريا - مرافقة دولية عن بعد',
@@ -88,24 +92,24 @@ export const siteConfig: SiteConfig = {
     },
   },
   assets: {
-    logo: '/images/jobs-in-bulgaria-logo.jpg',
-    hero: '/images/hero-tunisia-bulgaria.jpg',
-    reference: '/images/homepage-reference.jpg',
-    aboutMain: '/images/tunisian-candidates.jpg',
-    aboutSecondary: '/images/application-documents.jpg',
-    prepareDeparture: '/images/departure-tunisia.jpg',
-    sofiaBackground: '/images/sofia-work.jpg',
-    tunisianCandidates: '/images/tunisian-candidates.jpg',
-    sofiaWork: '/images/sofia-work.jpg',
-    departureTunisia: '/images/departure-tunisia.jpg',
-    applicationDocuments: '/images/application-documents.jpg',
+    logo: '/images/logo.png',
+    hero: '/images/hero-bulgaria-careers.png',
+    reference: '/images/hero-bulgaria.jpg',
+    aboutMain: '/images/about-main.jpg',
+    aboutSecondary: '/images/about-secondary.jpg',
+    prepareDeparture: '/images/prepare-departure.jpg',
+    sofiaBackground: '/images/sofia-bulgaria.jpg',
+    tunisianCandidates: '/images/about-main.jpg',
+    sofiaWork: '/images/sofia-bulgaria.jpg',
+    departureTunisia: '/images/prepare-departure.jpg',
+    applicationDocuments: '/images/about-secondary.jpg',
   },
   seo: {
-    siteUrl: 'https://jobs-in-bulgaria.vercel.app',
-    defaultTitle: 'Jobs in Bulgaria Tunisie | Travail en Bulgarie pour les Tunisiens',
+    siteUrl: 'https://hello-dreams.vercel.app',
+    defaultTitle: 'Hello Dreams | Opportunités professionnelles en Bulgarie',
     defaultDescription:
-      'Jobs in Bulgaria accompagne les candidats tunisiens dans leur candidature, la préparation de leur dossier et le suivi de leurs démarches pour travailler en Bulgarie.',
-    defaultImage: '/images/hero-tunisia-bulgaria.jpg',
+      'Hello Dreams accompagne les candidats tunisiens vers des opportunités professionnelles en Bulgarie avec un suivi personnalisé, une orientation claire et une préparation du dossier.',
+    defaultImage: '/images/logo.png',
     twitterCard: 'summary_large_image',
   },
   socials: [
@@ -349,8 +353,8 @@ export const siteConfig: SiteConfig = {
       id: 'government',
       question: { fr: "Etes-vous une ambassade ou un organisme public ?", ar: 'هل انتم سفارة او جهة حكومية؟' },
       answer: {
-        fr: "Non. Jobs in Bulgaria est une agence privee d'accompagnement. Les decisions finales appartiennent aux employeurs, administrations et autorites competentes.",
-        ar: 'لا. Jobs in Bulgaria وكالة خاصة للمرافقة. القرارات النهائية تعود للمشغلين والادارات والسلطات المختصة.',
+        fr: "Non. Hello Dreams est une agence privee d'accompagnement. Les decisions finales appartiennent aux employeurs, administrations et autorites competentes.",
+        ar: 'لا. Hello Dreams وكالة خاصة للمرافقة. القرارات النهائية تعود للمشغلين والادارات والسلطات المختصة.',
       },
     },
     {
@@ -516,8 +520,8 @@ export const siteConfig: SiteConfig = {
       en: 'From your first application to your installation',
     },
     text: {
-      fr: 'Jobs in Bulgaria accompagne les candidats souhaitant développer leur parcours professionnel en Bulgarie. Notre objectif est de rendre chaque étape plus claire, mieux organisée et plus rassurante.',
-      en: 'Jobs in Bulgaria supports candidates who want to develop their professional path in Bulgaria. Our goal is to make each step clearer, better organized and more reassuring.',
+      fr: 'Hello Dreams accompagne les candidats souhaitant développer leur parcours professionnel en Bulgarie. Notre objectif est de rendre chaque étape plus claire, mieux organisée et plus rassurante.',
+      en: 'Hello Dreams supports candidates who want to develop their professional path in Bulgaria. Our goal is to make each step clearer, better organized and more reassuring.',
     },
     items: [
       { fr: 'Analyse de votre profil', en: 'Profile analysis' },
@@ -737,8 +741,8 @@ export const siteConfig: SiteConfig = {
     {
       title: { fr: 'Editeur du site', ar: 'ناشر الموقع' },
       body: {
-        fr: "Le site est edite pour Jobs in Bulgaria, agence privee d'accompagnement en recrutement et mobilite internationale.",
-        ar: 'ينشر هذا الموقع لصالح Jobs in Bulgaria، وكالة خاصة للمرافقة في التوظيف والتنقل الدولي.',
+        fr: "Le site est edite pour Hello Dreams, agence privee d'accompagnement en recrutement et mobilite internationale.",
+        ar: 'ينشر هذا الموقع لصالح Hello Dreams، وكالة خاصة للمرافقة في التوظيف والتنقل الدولي.',
       },
     },
     {
@@ -751,8 +755,8 @@ export const siteConfig: SiteConfig = {
     {
       title: { fr: 'Responsabilite', ar: 'المسؤولية' },
       body: {
-        fr: "Jobs in Bulgaria ne garantit pas une embauche, un visa, une autorisation de travail ou l'acceptation d'un dossier.",
-        ar: 'Jobs in Bulgaria لا تضمن التوظيف او الفيزا او رخصة العمل او قبول الملف.',
+        fr: "Hello Dreams ne garantit pas une embauche, un visa, une autorisation de travail ou l'acceptation d'un dossier.",
+        ar: 'Hello Dreams لا تضمن التوظيف او الفيزا او رخصة العمل او قبول الملف.',
       },
     },
   ],
@@ -780,7 +784,7 @@ export const siteConfig: SiteConfig = {
     },
   ],
   footerNotice: {
-    fr: "Jobs in Bulgaria est une agence privee. Elle n'est ni une ambassade ni un organisme gouvernemental. Les decisions finales relatives a l'emploi, au visa, a l'autorisation de travail ou a l'acceptation d'un dossier appartiennent aux entreprises, administrations et autorites competentes.",
-    ar: 'Jobs in Bulgaria وكالة خاصة وليست سفارة او مؤسسة حكومية. القرارات النهائية المتعلقة بالعمل او الفيزا او رخصة العمل او قبول الملف تعود للشركات والادارات والسلطات المختصة.',
+    fr: "Hello Dreams est une agence privee. Elle n'est ni une ambassade ni un organisme gouvernemental. Les decisions finales relatives a l'emploi, au visa, a l'autorisation de travail ou a l'acceptation d'un dossier appartiennent aux entreprises, administrations et autorites competentes.",
+    ar: 'Hello Dreams وكالة خاصة وليست سفارة او مؤسسة حكومية. القرارات النهائية المتعلقة بالعمل او الفيزا او رخصة العمل او قبول الملف تعود للشركات والادارات والسلطات المختصة.',
   },
 }

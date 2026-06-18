@@ -11,8 +11,8 @@ export function HomeAboutSection() {
 
   return (
     <section className="bg-brand-mist py-16 md:py-24">
-      <div className="section-shell grid gap-12 lg:grid-cols-[0.95fr_1fr] lg:items-center">
-        <div className="relative min-h-[460px]">
+      <div className="section-shell grid gap-12 lg:grid-cols-[1fr_0.95fr] lg:items-center">
+        <div className="relative min-h-[460px] lg:order-2">
           <div className="absolute -start-4 top-8 hidden h-[82%] w-[86%] rounded-lg border-2 border-brand-green/45 md:block" aria-hidden="true" />
           <ImageFrame
             alt={t('home.about.mainImageAlt')}
@@ -33,7 +33,7 @@ export function HomeAboutSection() {
           </div>
         </div>
 
-        <div>
+        <div className="lg:order-1">
           <SectionHeader
             eyebrow={t('home.about.eyebrow')}
             title={t('home.about.title')}

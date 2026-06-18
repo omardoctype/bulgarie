@@ -118,7 +118,7 @@ export function Header() {
             {t('actions.contact')}
           </NavLink>
           <a
-            href={siteConfig.agency.whatsappLink}
+            href={siteConfig.agency.whatsappUrl}
             target="_blank"
             rel="noreferrer"
             className="focus-ring inline-flex min-h-11 items-center gap-2 rounded-full border border-brand-green/30 bg-brand-green px-4 py-2 text-sm font-semibold text-white shadow-soft transition duration-200 hover:-translate-y-0.5 hover:bg-brand-petrol"
@@ -202,7 +202,7 @@ export function Header() {
                 {t('actions.contact')}
               </NavLink>
               <a
-                href={siteConfig.agency.whatsappLink}
+                href={siteConfig.agency.whatsappUrl}
                 target="_blank"
                 rel="noreferrer"
                 className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-brand-green px-5 py-3 text-sm font-semibold text-white transition hover:bg-brand-petrol"

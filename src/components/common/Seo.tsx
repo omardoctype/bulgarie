@@ -28,6 +28,7 @@ export function Seo({
   const location = useLocation()
   const canonicalUrl = buildAbsoluteUrl(canonicalPath ?? location.pathname, siteConfig.seo.siteUrl)
   const imageUrl = buildAbsoluteUrl(image, siteConfig.seo.siteUrl)
+  const ogTitle = (canonicalPath ?? location.pathname) === '/' ? siteConfig.siteName : title
   const structuredData = [createOrganizationSchema(), ...(Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [])]
 
   return (
@@ -38,8 +39,8 @@ export function Seo({
       <link rel="canonical" href={canonicalUrl} />
 
       <meta property="og:type" content={type} />
-      <meta property="og:site_name" content={siteConfig.agency.name} />
-      <meta property="og:title" content={title} />
+      <meta property="og:site_name" content={siteConfig.siteName} />
+      <meta property="og:title" content={ogTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:image" content={imageUrl} />
@@ -69,7 +70,7 @@ function createOrganizationSchema(): JsonLd {
     '@type': 'Organization',
     name: siteConfig.agency.name,
     url: normalizeBaseUrl(siteConfig.seo.siteUrl),
-    logo: buildAbsoluteUrl('/favicon.svg', siteConfig.seo.siteUrl),
+    logo: buildAbsoluteUrl(siteConfig.assets.logo, siteConfig.seo.siteUrl),
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'customer support',

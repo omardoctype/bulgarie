@@ -54,7 +54,7 @@ export function ContactForm() {
   const onSubmit = (values: ContactFormValues) => {
     const subjectLabel = subjects.find((subject) => subject.value === values.subject)?.label ?? values.subject
     const message = t('form.whatsappMessage', { ...values, subject: subjectLabel })
-    const whatsappUrl = `${siteConfig.agency.whatsappLink}?text=${encodeURIComponent(message)}`
+    const whatsappUrl = `${siteConfig.agency.whatsappUrl}?text=${encodeURIComponent(message)}`
 
     setIsSubmitted(true)
     window.setTimeout(() => {

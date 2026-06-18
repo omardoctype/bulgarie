@@ -3,6 +3,7 @@ import type { ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link, useParams } from 'react-router-dom'
 import { Seo } from '../components/common/Seo'
+import { SafeImage } from '../components/common/SafeImage'
 import { createJobWhatsAppUrl, getJobBySlug } from '../data/jobs'
 import { siteConfig } from '../data/siteConfig'
 
@@ -49,19 +50,30 @@ export function OpportunityDetailPage() {
   return (
     <>
       <Seo
-        title={`${title} | Jobs in Bulgaria`}
+        title={`${title} | Hello Dreams`}
         description={t(job.description)}
         canonicalPath={`/opportunites/${job.slug}`}
       />
       <section
-        className="bg-brand-navy py-14 text-white md:py-20"
+        className="relative isolate overflow-hidden bg-brand-navy py-14 text-white md:py-20"
         style={{
-          backgroundImage: `linear-gradient(90deg, rgba(7, 26, 51, 0.96), rgba(7, 26, 51, 0.84)), url(${siteConfig.assets.sofiaBackground})`,
+          backgroundImage: 'linear-gradient(135deg, #0B2A4A 0%, #0E8C86 100%)',
           backgroundPosition: 'center',
           backgroundSize: 'cover',
         }}
       >
-        <div className="section-shell">
+        <SafeImage
+          alt={t('home.whyBulgaria.imageAlt')}
+          className="absolute inset-0 -z-10 h-full w-full"
+          fallbackClassName="text-white/65"
+          height={900}
+          imgClassName="absolute inset-0 h-full w-full object-cover"
+          loading="lazy"
+          src={siteConfig.assets.sofiaBackground}
+          width={1600}
+        />
+        <div className="absolute inset-0 -z-10 bg-brand-navy/86" aria-hidden="true" />
+        <div className="section-shell relative z-10">
           <nav className="text-sm text-white/70" aria-label={t('labels.breadcrumb')}>
             <Link className="focus-ring rounded-sm hover:text-white" to="/">
               {t('opportunities.breadcrumbHome')}

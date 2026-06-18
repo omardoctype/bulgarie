@@ -22,7 +22,7 @@ export function ContactSection() {
           <div className="mt-7 grid gap-3 text-sm text-white/78">
             <a
               className="focus-ring flex items-center gap-3 rounded-lg border border-white/10 bg-white/5 p-3 transition hover:bg-white/10"
-              href={siteConfig.agency.whatsappLink}
+              href={siteConfig.agency.whatsappUrl}
               target="_blank"
               rel="noreferrer"
             >

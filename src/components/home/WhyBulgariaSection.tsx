@@ -1,10 +1,10 @@
 import { ArrowRight } from 'lucide-react'
-import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { siteConfig } from '../../data/siteConfig'
 import type { IconName } from '../../types/site'
 import { iconMap } from '../../utils/iconMap'
+import { SafeImage } from '../common/SafeImage'
 
 type BulgariaCard = {
   description: string
@@ -14,7 +14,6 @@ type BulgariaCard = {
 }
 
 export function WhyBulgariaSection() {
-  const [hasImageError, setHasImageError] = useState(false)
   const { t } = useTranslation()
   const cards = t('home.whyBulgaria.cards', { returnObjects: true }) as BulgariaCard[]
 
@@ -22,24 +21,22 @@ export function WhyBulgariaSection() {
     <section
       className="relative isolate overflow-hidden bg-brand-navy py-16 text-white md:py-24"
       style={{
-        backgroundImage: 'linear-gradient(135deg, #071a33 0%, #0c5f66 100%)',
+        backgroundImage: 'linear-gradient(135deg, #0B2A4A 0%, #0E8C86 100%)',
         backgroundPosition: 'center',
         backgroundSize: 'cover',
       }}
     >
-      {!hasImageError ? (
-        <img
-          alt=""
-          aria-hidden="true"
-          className="absolute inset-0 -z-10 h-full w-full object-cover"
-          decoding="async"
-          height={900}
-          loading="lazy"
-          onError={() => setHasImageError(true)}
-          src={siteConfig.assets.sofiaBackground}
-          width={1600}
-        />
-      ) : null}
+      <SafeImage
+        alt={t('home.whyBulgaria.imageAlt')}
+        className="absolute inset-0 -z-10 h-full w-full"
+        decoding="async"
+        fallbackClassName="text-white/65"
+        height={900}
+        imgClassName="absolute inset-0 h-full w-full object-cover"
+        loading="lazy"
+        src={siteConfig.assets.sofiaBackground}
+        width={1600}
+      />
       <div className="absolute inset-0 -z-10 bg-brand-navy/88" aria-hidden="true" />
       <div className="section-shell relative z-10">
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">

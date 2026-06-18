@@ -24,7 +24,7 @@ export function CtaSection() {
               {t('actions.apply')}
             </ButtonLink>
             <a
-              href={siteConfig.agency.whatsappLink}
+              href={siteConfig.agency.whatsappUrl}
               target="_blank"
               rel="noreferrer"
               className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-full border border-white/40 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white hover:text-brand-navy"

@@ -109,6 +109,8 @@ export type AdminStatItem = {
 }
 
 export type SiteConfig = {
+  brandName: string
+  siteName: string
   agency: {
     name: string
     tagline: LocalizedString
@@ -116,8 +118,10 @@ export type SiteConfig = {
     heroText: LocalizedString
     arabicSignature: string
     arabicSignatureTranslation: LocalizedString
+    phone: string
     whatsapp: string
     whatsappLink: string
+    whatsappUrl: string
     email: string
     address: LocalizedString
   }

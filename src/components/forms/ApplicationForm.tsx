@@ -103,7 +103,7 @@ export function ApplicationForm({ className = '' }: ApplicationFormProps) {
       validPassport: findLabel(passportOptions, values.validPassport),
       workedAbroad: findLabel(workedAbroadOptions, values.workedAbroad),
     })
-    const whatsappUrl = `${siteConfig.agency.whatsappLink}?text=${encodeURIComponent(message)}`
+    const whatsappUrl = `${siteConfig.agency.whatsappUrl}?text=${encodeURIComponent(message)}`
 
     setIsRedirecting(true)
     window.setTimeout(() => {

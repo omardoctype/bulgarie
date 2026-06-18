@@ -1,11 +1,10 @@
 import { ArrowRight, CheckCircle2, MessageCircle } from 'lucide-react'
-import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { siteConfig } from '../../data/siteConfig'
+import { SafeImage } from '../common/SafeImage'
 
 export function HeroSection() {
-  const [hasHeroError, setHasHeroError] = useState(false)
   const { t } = useTranslation()
   const trustItems = t('home.hero.trustItems', { returnObjects: true }) as string[]
 
@@ -15,27 +14,26 @@ export function HeroSection() {
       aria-labelledby="home-hero-title"
       style={{
         backgroundImage:
-          'radial-gradient(circle at 78% 24%, rgba(58, 143, 95, 0.42), transparent 32%), linear-gradient(135deg, #071a33 0%, #0c5f66 54%, #071a33 100%)',
+          'radial-gradient(circle at 78% 24%, rgba(46, 154, 89, 0.42), transparent 32%), linear-gradient(135deg, #0B2A4A 0%, #0E8C86 54%, #08213D 100%)',
         backgroundPosition: 'center',
         backgroundSize: 'cover',
       }}
     >
-      <span className="sr-only">{t('home.hero.imageAlt')}</span>
-      {!hasHeroError ? (
-        <img
-          alt=""
-          aria-hidden="true"
-          className="absolute inset-0 h-full w-full object-cover"
-          decoding="async"
-          fetchPriority="high"
-          height={1000}
-          loading="eager"
-          onError={() => setHasHeroError(true)}
-          src={siteConfig.assets.hero}
-          width={1600}
-        />
-      ) : null}
-      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(7,26,51,0.94),rgba(7,26,51,0.78)_44%,rgba(7,26,51,0.42))]" aria-hidden="true" />
+      <SafeImage
+        alt={t('home.hero.imageAlt')}
+        className="absolute inset-0 h-full w-full"
+        decoding="async"
+        fallbackClassName="text-white/70"
+        fetchPriority="high"
+        height={1000}
+        imgClassName="absolute inset-0 h-full w-full object-cover"
+        loading="eager"
+        src={siteConfig.assets.hero}
+        width={1600}
+      />
+      <div className="absolute end-[8%] top-[18%] h-44 w-44 rounded-full bg-brand-green/18 blur-3xl" aria-hidden="true" />
+      <div className="absolute bottom-[10%] start-[6%] h-36 w-36 rounded-full bg-white/8 blur-3xl" aria-hidden="true" />
+      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(8,33,61,0.94),rgba(11,42,74,0.78)_44%,rgba(11,42,74,0.42))]" aria-hidden="true" />
       <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-brand-navy/90 to-transparent" aria-hidden="true" />
 
       <div className="section-shell relative z-10 pt-8">
@@ -66,7 +64,7 @@ export function HeroSection() {
                 <ArrowRight className="dir-icon h-4 w-4" aria-hidden="true" />
               </Link>
               <a
-                href={siteConfig.agency.whatsappLink}
+                href={siteConfig.agency.whatsappUrl}
                 target="_blank"
                 rel="noreferrer"
                 className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-white/35 bg-white/10 px-6 py-3 text-sm font-semibold text-white backdrop-blur transition duration-200 hover:-translate-y-0.5 hover:bg-white hover:text-brand-navy"
@@ -94,7 +92,7 @@ export function HeroSection() {
               {t('home.hero.floatingSubtitle')}
             </p>
             <a
-              href={siteConfig.agency.whatsappLink}
+              href={siteConfig.agency.whatsappUrl}
               target="_blank"
               rel="noreferrer"
               className="focus-ring mt-3 flex items-center gap-3 rounded-lg bg-white px-4 py-4 text-brand-navy transition hover:-translate-y-0.5"

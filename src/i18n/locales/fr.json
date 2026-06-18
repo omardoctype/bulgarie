@@ -1,12 +1,12 @@
 {
   "agency": {
-    "name": "Jobs in Bulgaria",
+    "name": "Hello Dreams",
     "tagline": "Suivi complet jusqu’au visa",
     "heroText": "Agence privée d’accompagnement destinée principalement aux candidats tunisiens qui souhaitent préparer un projet professionnel en Bulgarie depuis la Tunisie.",
     "address": "Adresse à configurer",
     "signatureArabic": "هنا بدأت رحلتي نحو النسخة الأقوى مني.",
     "signatureTranslation": "C’est ici que mon voyage vers une meilleure version de moi-même a commencé.",
-    "footerNotice": "Jobs in Bulgaria est une structure privée d’accompagnement destinée principalement aux candidats tunisiens souhaitant préparer un projet professionnel en Bulgarie. Elle n’est ni une ambassade, ni un consulat, ni une administration publique. L’agence ne garantit ni l’embauche, ni l’obtention d’un visa, ni une autorisation administrative. Les décisions finales appartiennent aux employeurs, administrations et autorités compétentes."
+    "footerNotice": "Hello Dreams est une structure privée d’accompagnement destinée principalement aux candidats tunisiens souhaitant préparer un projet professionnel en Bulgarie. Elle n’est ni une ambassade, ni un consulat, ni une administration publique. L’agence ne garantit ni l’embauche, ni l’obtention d’un visa, ni une autorisation administrative. Les décisions finales appartiennent aux employeurs, administrations et autorités compétentes."
   },
   "nav": {
     "home": "Accueil",
@@ -58,7 +58,7 @@
     "contract": "Contrat"
   },
   "floatingWhatsApp": {
-    "label": "Contacter Jobs in Bulgaria sur WhatsApp",
+    "label": "Contacter Hello Dreams sur WhatsApp",
     "tooltip": "Besoin d'aide ? Écrivez-nous"
   },
   "contactSection": {
@@ -77,51 +77,51 @@
     "arabicLine": "هنا تبدأ رحلتك من تونس نحو فرصة جديدة في بلغاريا."
   },
   "footer": {
-    "description": "Agence privée d’accompagnement destinée principalement aux candidats tunisiens qui veulent préparer une opportunité professionnelle en Bulgarie depuis la Tunisie.",
+    "description": "Hello Dreams accompagne les candidats tunisiens vers des opportunités professionnelles en Bulgarie, avec un suivi personnalisé depuis la candidature jusqu’à la préparation du dossier.",
     "navigation": "Navigation",
     "services": "Services",
     "information": "Informations",
     "contact": "Contact",
-    "legalWarning": "Jobs in Bulgaria est une structure privée d’accompagnement destinée principalement aux candidats tunisiens souhaitant préparer un projet professionnel en Bulgarie. Elle n’est ni une ambassade, ni un consulat, ni une administration publique. L’agence ne garantit ni l’embauche, ni l’obtention d’un visa, ni une autorisation administrative. Les décisions finales appartiennent aux employeurs, administrations et autorités compétentes.",
-    "copyright": "© {{year}} Jobs in Bulgaria. Tous droits réservés."
+    "legalWarning": "Hello Dreams est une structure privée d’accompagnement destinée principalement aux candidats tunisiens souhaitant préparer un projet professionnel en Bulgarie. Elle n’est ni une ambassade, ni un consulat, ni une administration publique. L’agence ne garantit ni l’embauche, ni l’obtention d’un visa, ni une autorisation administrative. Les décisions finales appartiennent aux employeurs, administrations et autorités compétentes.",
+    "copyright": "© {{year}} Hello Dreams. Tous droits réservés."
   },
   "seo": {
     "pages": {
       "home": {
-        "title": "Jobs in Bulgaria Tunisie | Travail en Bulgarie pour les Tunisiens",
-        "description": "Jobs in Bulgaria accompagne les candidats tunisiens dans leur candidature, la préparation de leur dossier et le suivi de leurs démarches pour travailler en Bulgarie."
+        "title": "Hello Dreams | Opportunités professionnelles en Bulgarie",
+        "description": "Hello Dreams accompagne les candidats tunisiens vers des opportunités professionnelles en Bulgarie avec un suivi personnalisé, une orientation claire et une préparation du dossier."
       },
       "opportunities": {
-        "title": "Opportunités professionnelles en Bulgarie pour Tunisiens | Jobs in Bulgaria",
+        "title": "Opportunités professionnelles en Bulgarie pour Tunisiens | Hello Dreams",
         "description": "Consultez les domaines disponibles pour les candidats tunisiens et envoyez votre profil pour une orientation personnalisée vers les opportunités professionnelles en Bulgarie."
       },
       "services": {
-        "title": "Accompagnement visa Bulgarie Tunisie | Jobs in Bulgaria",
+        "title": "Accompagnement visa Bulgarie Tunisie | Hello Dreams",
         "description": "Préparez votre dossier depuis la Tunisie avec un accompagnement clair pour votre candidature, vos documents, votre suivi et votre départ vers la Bulgarie."
       },
       "about": {
-        "title": "Jobs in Bulgaria Tunisie | À propos",
-        "description": "Découvrez Jobs in Bulgaria, une structure privée qui accompagne les profils tunisiens souhaitant préparer un projet professionnel en Bulgarie."
+        "title": "Hello Dreams Tunisie | À propos",
+        "description": "Découvrez Hello Dreams, une structure privée qui accompagne les profils tunisiens souhaitant préparer un projet professionnel en Bulgarie."
       },
       "faq": {
-        "title": "FAQ Tunisie Bulgarie | Jobs in Bulgaria",
+        "title": "FAQ Tunisie Bulgarie | Hello Dreams",
         "description": "Réponses aux questions fréquentes des Tunisiens sur le travail en Bulgarie, le dossier, le passeport, le visa et les opportunités."
       },
       "contact": {
-        "title": "Contact Jobs in Bulgaria Tunisie",
-        "description": "Contactez Jobs in Bulgaria depuis la Tunisie via WhatsApp pour envoyer votre profil ou poser vos questions sur votre projet en Bulgarie."
+        "title": "Contact Hello Dreams Tunisie",
+        "description": "Contactez Hello Dreams depuis la Tunisie via WhatsApp pour envoyer votre profil ou poser vos questions sur votre projet en Bulgarie."
       },
       "legal": {
-        "title": "Mentions légales | Jobs in Bulgaria Tunisie",
-        "description": "Consultez les mentions légales de Jobs in Bulgaria, structure privée d’accompagnement pour candidats tunisiens."
+        "title": "Mentions légales | Hello Dreams Tunisie",
+        "description": "Consultez les mentions légales de Hello Dreams, structure privée d’accompagnement pour candidats tunisiens."
       },
       "privacy": {
-        "title": "Politique de confidentialité | Jobs in Bulgaria Tunisie",
+        "title": "Politique de confidentialité | Hello Dreams Tunisie",
         "description": "Consultez les principes de confidentialité appliqués aux informations envoyées via le site ou WhatsApp."
       },
       "notFound": {
-        "title": "Page introuvable | Jobs in Bulgaria Tunisie",
-        "description": "La page demandée est introuvable. Retournez à l’accueil ou envoyez votre profil à Jobs in Bulgaria."
+        "title": "Page introuvable | Hello Dreams Tunisie",
+        "description": "La page demandée est introuvable. Retournez à l’accueil ou envoyez votre profil à Hello Dreams."
       }
     }
   },
@@ -136,7 +136,7 @@
     },
     "about": {
       "title": "Une agence spécialisée Bulgarie",
-      "intro": "Jobs in Bulgaria accompagne les candidats avec une approche humaine, méthodique et transparente."
+      "intro": "Hello Dreams accompagne les candidats avec une approche humaine, méthodique et transparente."
     },
     "faq": {
       "title": "Questions fréquentes",
@@ -163,7 +163,7 @@
     "hero": {
       "badge": "Depuis la Tunisie vers la Bulgarie",
       "title": "Travaillez en Bulgarie avec un accompagnement depuis la Tunisie",
-      "subtitle": "Jobs in Bulgaria accompagne les candidats tunisiens dans la préparation de leur candidature, le suivi de leur dossier et les démarches nécessaires jusqu’au départ.",
+      "subtitle": "Hello Dreams accompagne les candidats tunisiens dans la préparation de leur candidature, le suivi de leur dossier et les démarches nécessaires jusqu’au départ.",
       "visaLine": "Suivi complet jusqu’au visa",
       "arabicLine": "نعاونك خطوة بخطوة من تونس إلى بلغاريا",
       "primaryCta": "Envoyer ma candidature",
@@ -171,7 +171,7 @@
       "whatsappLabel": "WhatsApp",
       "floatingTitle": "Candidats tunisiens",
       "floatingSubtitle": "Suivi via WhatsApp",
-      "imageAlt": "Jeunes Tunisiens préparant un départ professionnel vers la Bulgarie.",
+      "imageAlt": "Opportunités professionnelles en Bulgarie",
       "trustItems": [
         "Accompagnement depuis la Tunisie",
         "Suivi personnalisé du dossier",
@@ -223,10 +223,10 @@
     "about": {
       "eyebrow": "À propos de notre agence",
       "title": "De votre première candidature en Tunisie jusqu’à votre installation en Bulgarie",
-      "text": "Jobs in Bulgaria accompagne les profils tunisiens souhaitant construire un parcours professionnel en Bulgarie. Notre objectif est de rendre chaque étape plus claire, mieux organisée et plus rassurante.",
+      "text": "Hello Dreams accompagne les profils tunisiens souhaitant construire un parcours professionnel en Bulgarie. Notre objectif est de rendre chaque étape plus claire, mieux organisée et plus rassurante.",
       "badge": "Accompagnement des profils tunisiens",
-      "mainImageAlt": "Candidats tunisiens préparant une candidature professionnelle",
-      "secondaryImageAlt": "CV et documents organisés pour une candidature en Bulgarie",
+      "mainImageAlt": "Candidats préparant leur projet professionnel",
+      "secondaryImageAlt": "Préparation de dossier et documents",
       "items": [
         "Analyse de votre profil depuis la Tunisie",
         "Orientation vers les opportunités adaptées",
@@ -238,6 +238,7 @@
     "whyBulgaria": {
       "title": "Pourquoi la Bulgarie peut être une étape intéressante pour votre projet depuis la Tunisie ?",
       "cta": "Voir les opportunités disponibles",
+      "imageAlt": "Ville de Sofia en Bulgarie",
       "cards": [
         {
           "id": "international-opportunities",
@@ -269,7 +270,7 @@
       "eyebrow": "Préparer votre départ",
       "title": "Construisons votre projet depuis la Tunisie",
       "text": "Un départ réussi commence par une préparation claire. Nous vous aidons à comprendre les étapes principales avant votre arrivée en Bulgarie.",
-      "imageAlt": "Départ professionnel depuis la Tunisie vers la Bulgarie",
+      "imageAlt": "Préparation avant le départ vers la Bulgarie",
       "items": [
         "Profil et candidature",
         "CV et documents nécessaires",
@@ -488,7 +489,7 @@
       }
     ],
     "processTitle": "Suivi complet jusqu’au visa",
-    "processText": "L’accompagnement reste méthodique et transparent. Jobs in Bulgaria ne remplace pas les employeurs, administrations ou autorités compétentes.",
+    "processText": "L’accompagnement reste méthodique et transparent. Hello Dreams ne remplace pas les employeurs, administrations ou autorités compétentes.",
     "processSteps": [
       {
         "id": "send-info",
@@ -541,7 +542,7 @@
       {
         "id": "tunisians",
         "question": "Est-ce que le service est destiné aux Tunisiens ?",
-        "answer": "Oui, Jobs in Bulgaria accompagne principalement les candidats tunisiens souhaitant préparer un projet professionnel en Bulgarie."
+        "answer": "Oui, Hello Dreams accompagne principalement les candidats tunisiens souhaitant préparer un projet professionnel en Bulgarie."
       },
       {
         "id": "apply-from-tunisia",
@@ -576,7 +577,7 @@
       {
         "id": "send-profile",
         "question": "Comment envoyer mon profil ?",
-        "answer": "Vous pouvez remplir le formulaire ou envoyer directement vos informations via WhatsApp au +359 888 626 203."
+        "answer": "Vous pouvez remplir le formulaire ou envoyer directement vos informations via WhatsApp au +359888626203."
       }
     ]
   },
@@ -607,8 +608,8 @@
   "applicationForm": {
     "sectionEyebrow": "Candidature depuis la Tunisie",
     "sectionTitle": "Envoyer votre candidature depuis la Tunisie",
-    "sectionIntro": "Remplissez les informations essentielles. Votre candidature sera préparée pour WhatsApp afin de l’envoyer directement à Jobs in Bulgaria.",
-    "privacyNote": "Les informations renseignées seront utilisées uniquement pour examiner votre demande et vous contacter concernant les services de Jobs in Bulgaria.",
+    "sectionIntro": "Remplissez les informations essentielles. Votre candidature sera préparée pour WhatsApp afin de l’envoyer directement à Hello Dreams.",
+    "privacyNote": "Les informations renseignées seront utilisées uniquement pour examiner votre demande et vous contacter concernant les services de Hello Dreams.",
     "redirectNotice": "Votre candidature sera envoyée via WhatsApp. Aucune donnée n’est enregistrée sur le site pour le moment.",
     "submit": "Préparer ma candidature WhatsApp",
     "fields": {
@@ -747,7 +748,7 @@
       "message": "Votre message doit contenir au moins 10 caractères.",
       "consent": "Votre accord est nécessaire avant l’envoi."
     },
-    "whatsappMessage": "Nouvelle candidature depuis la Tunisie — Jobs in Bulgaria\n\nNom et prénom : {{firstName}} {{lastName}}\nÂge : {{age}}\nVille : {{tunisianCity}}\nGouvernorat : {{governorate}}\nWhatsApp : {{whatsapp}}\nEmail : {{email}}\nNiveau d’études : {{educationLevel}}\nDomaine : {{experienceDomain}}\nExpérience : {{experienceYears}}\nLangues : {{spokenLanguages}}\nNiveau anglais : {{englishLevel}}\nNiveau français : {{frenchLevel}}\nNiveau arabe : {{arabicLevel}}\nPasseport valide : {{validPassport}}\nTravail à l’étranger : {{workedAbroad}}\nDisponibilité : {{availability}}\nMessage : {{message}}",
+    "whatsappMessage": "Nouvelle candidature depuis la Tunisie — Hello Dreams\n\nNom et prénom : {{firstName}} {{lastName}}\nÂge : {{age}}\nVille : {{tunisianCity}}\nGouvernorat : {{governorate}}\nWhatsApp : {{whatsapp}}\nEmail : {{email}}\nNiveau d’études : {{educationLevel}}\nDomaine : {{experienceDomain}}\nExpérience : {{experienceYears}}\nLangues : {{spokenLanguages}}\nNiveau anglais : {{englishLevel}}\nNiveau français : {{frenchLevel}}\nNiveau arabe : {{arabicLevel}}\nPasseport valide : {{validPassport}}\nTravail à l’étranger : {{workedAbroad}}\nDisponibilité : {{availability}}\nMessage : {{message}}",
     "governorates": [
       {
         "value": "tunis",
@@ -951,7 +952,7 @@
       "message": "Votre message doit contenir au moins 20 caractères.",
       "consent": "Votre accord est nécessaire pour être recontacté."
     },
-    "whatsappMessage": "Nouveau message — Jobs in Bulgaria\n\nNom : {{name}}\nEmail : {{email}}\nTéléphone : {{phone}}\nSujet : {{subject}}\nMessage : {{message}}"
+    "whatsappMessage": "Nouveau message — Hello Dreams\n\nNom : {{name}}\nEmail : {{email}}\nTéléphone : {{phone}}\nSujet : {{subject}}\nMessage : {{message}}"
   },
   "opportunities": {
     "eyebrow": "Tunisie vers Bulgarie",
@@ -1125,7 +1126,7 @@
       {
         "id": "publisher",
         "title": "?diteur du site",
-        "body": "Le site est ?dit? pour Jobs in Bulgaria, structure priv?e d?accompagnement destin?e principalement aux candidats tunisiens souhaitant pr?parer un projet professionnel en Bulgarie."
+        "body": "Le site est ?dit? pour Hello Dreams, structure priv?e d?accompagnement destin?e principalement aux candidats tunisiens souhaitant pr?parer un projet professionnel en Bulgarie."
       },
       {
         "id": "service",
@@ -1135,7 +1136,7 @@
       {
         "id": "responsibility",
         "title": "Responsabilité",
-        "body": "Jobs in Bulgaria ne garantit pas une embauche, un visa, une autorisation de travail ou l'acceptation d'un dossier."
+        "body": "Hello Dreams ne garantit pas une embauche, un visa, une autorisation de travail ou l'acceptation d'un dossier."
       }
     ]
   },

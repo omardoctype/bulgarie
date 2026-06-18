@@ -1,4 +1,5 @@
-import { useState, type ImgHTMLAttributes, type ReactNode } from 'react'
+import type { ImgHTMLAttributes, ReactNode } from 'react'
+import { SafeImage } from './SafeImage'
 
 type ImageFrameProps = ImgHTMLAttributes<HTMLImageElement> & {
   children?: ReactNode
@@ -15,22 +16,19 @@ export function ImageFrame({
   src,
   ...props
 }: ImageFrameProps) {
-  const [hasError, setHasError] = useState(false)
-
   return (
     <div className={`relative overflow-hidden bg-brand-navy ${frameClassName}`}>
-      <div className="absolute inset-0 bg-[linear-gradient(135deg,#071a33,#0c5f66_55%,#3a8f5f)]" aria-hidden="true" />
-      {!hasError && src ? (
-        <img
-          alt={alt}
-          className={`relative z-10 h-full w-full object-cover ${className}`}
-          decoding={decoding}
-          loading={loading}
-          src={src}
-          onError={() => setHasError(true)}
-          {...props}
-        />
-      ) : null}
+      <div className="absolute inset-0 bg-[linear-gradient(135deg,#0B2A4A,#0E8C86_55%,#2E9A59)]" aria-hidden="true" />
+      <SafeImage
+        alt={alt ?? ''}
+        className={`relative z-10 h-full w-full object-cover ${className}`}
+        decoding={decoding}
+        fallbackClassName="text-white/70"
+        fallbackLabel="Image bientôt disponible"
+        loading={loading}
+        src={src}
+        {...props}
+      />
       {children}
     </div>
   )

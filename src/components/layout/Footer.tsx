@@ -88,7 +88,7 @@ export function Footer() {
             </FooterColumn>
 
             <FooterColumn title={t('footer.contact')}>
-              <a className="focus-ring flex items-start gap-2 rounded-sm text-white/72 hover:text-white" href={siteConfig.agency.whatsappLink} target="_blank" rel="noreferrer">
+              <a className="focus-ring flex items-start gap-2 rounded-sm text-white/72 hover:text-white" href={siteConfig.agency.whatsappUrl} target="_blank" rel="noreferrer">
                 <MessageCircle className="mt-0.5 h-4 w-4 shrink-0 text-brand-green" aria-hidden="true" />
                 <span className="phone-number">{siteConfig.agency.whatsapp}</span>
               </a>

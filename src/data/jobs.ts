@@ -143,5 +143,5 @@ export function getJobBySlug(slug: string) {
 }
 
 export function createJobWhatsAppUrl(message: string) {
-  return `${siteConfig.agency.whatsappLink}?text=${encodeURIComponent(message)}`
+  return `${siteConfig.agency.whatsappUrl}?text=${encodeURIComponent(message)}`
 }

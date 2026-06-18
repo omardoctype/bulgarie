@@ -7,7 +7,7 @@ import fr from './locales/fr.json'
 export const supportedLanguages = ['fr', 'ar', 'en'] as const
 export type SupportedLanguage = (typeof supportedLanguages)[number]
 
-const languageStorageKey = 'jobs-in-bulgaria-language'
+const languageStorageKey = 'hello-dreams-language'
 
 function isSupportedLanguage(language: string | null): language is SupportedLanguage {
   return supportedLanguages.includes(language as SupportedLanguage)

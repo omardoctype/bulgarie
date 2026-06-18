@@ -9,7 +9,7 @@ export function FloatingWhatsApp() {
 
   return (
     <a
-      href={siteConfig.agency.whatsappLink}
+      href={siteConfig.agency.whatsappUrl}
       target="_blank"
       rel="noreferrer"
       aria-describedby={tooltipId}
