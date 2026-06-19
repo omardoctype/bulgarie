@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom'
 import { Layout } from './components/layout/Layout'
 import { AboutPage } from './pages/AboutPage'
 import { ContactPage } from './pages/ContactPage'
+import { EmailJSTestPage } from './pages/EmailJSTest'
 import { FaqPage } from './pages/FaqPage'
 import { HomePage } from './pages/HomePage'
 import { LegalPage } from './pages/LegalPage'
@@ -22,6 +23,7 @@ function App() {
         <Route path="a-propos" element={<AboutPage />} />
         <Route path="faq" element={<FaqPage />} />
         <Route path="contact" element={<ContactPage />} />
+        <Route path="emailjs-test" element={<EmailJSTestPage />} />
         <Route path="mentions-legales" element={<LegalPage />} />
         <Route path="confidentialite" element={<PrivacyPage />} />
         <Route path="*" element={<NotFoundPage />} />

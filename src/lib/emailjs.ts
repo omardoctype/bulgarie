@@ -3,6 +3,8 @@ import emailjs from '@emailjs/browser'
 type EmailResult = {
   error?: string
   ok: boolean
+  status?: number
+  text?: string
 }
 
 export type ContactEmailData = {
@@ -44,6 +46,16 @@ const emailConfig = {
   serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID,
 }
 
+export function getEmailJsDebugConfig() {
+  return {
+    applicationTemplateId: emailConfig.applicationTemplateId,
+    contactTemplateId: emailConfig.contactTemplateId,
+    hasPublicKey: Boolean(emailConfig.publicKey),
+    receiverEmail: emailConfig.receiverEmail,
+    serviceId: emailConfig.serviceId,
+  }
+}
+
 export async function sendContactEmail(data: ContactEmailData): Promise<EmailResult> {
   const configError = getConfigError(emailConfig.contactTemplateId)
 
@@ -60,7 +72,6 @@ export async function sendContactEmail(data: ContactEmailData): Promise<EmailRes
     consent: data.consent ? 'Oui' : 'Non',
     submitted_at: new Date().toLocaleString('fr-FR'),
     source_page: getSourcePage(),
-    to_email: emailConfig.receiverEmail ?? '',
   }
 
   return sendEmail(emailConfig.contactTemplateId, templateParams)
@@ -94,7 +105,6 @@ export async function sendApplicationEmail(data: ApplicationEmailData): Promise<
     consent: data.consent ? 'Oui' : 'Non',
     submitted_at: new Date().toLocaleString('fr-FR'),
     source_page: getSourcePage(),
-    to_email: emailConfig.receiverEmail ?? '',
   }
 
   return sendEmail(emailConfig.applicationTemplateId, templateParams)
@@ -117,16 +127,55 @@ async function sendEmail(templateId: string | undefined, templateParams: Record<
   }
 
   try {
+    if (import.meta.env.DEV) {
+      console.log('EmailJS config check', {
+        serviceId: emailConfig.serviceId,
+        contactTemplateId: emailConfig.contactTemplateId,
+        applicationTemplateId: emailConfig.applicationTemplateId,
+        hasPublicKey: Boolean(emailConfig.publicKey),
+      })
+    }
+
     await emailjs.send(emailConfig.serviceId, templateId, templateParams, {
       publicKey: emailConfig.publicKey,
     })
 
     return { ok: true }
-  } catch {
-    return { ok: false, error: 'EmailJS request failed.' }
+  } catch (error) {
+    const emailError = normalizeEmailJsError(error)
+
+    if (import.meta.env.DEV) {
+      console.error('EmailJS send failed', {
+        status: emailError.status,
+        text: emailError.text,
+      })
+    }
+
+    return {
+      ok: false,
+      error: 'EmailJS request failed.',
+      status: emailError.status,
+      text: emailError.text,
+    }
   }
 }
 
 function getSourcePage() {
   return typeof window === 'undefined' ? '' : window.location.href
+}
+
+function normalizeEmailJsError(error: unknown) {
+  if (error && typeof error === 'object') {
+    const maybeEmailError = error as { status?: unknown; text?: unknown }
+
+    return {
+      status: typeof maybeEmailError.status === 'number' ? maybeEmailError.status : undefined,
+      text: typeof maybeEmailError.text === 'string' ? maybeEmailError.text : undefined,
+    }
+  }
+
+  return {
+    status: undefined,
+    text: undefined,
+  }
 }

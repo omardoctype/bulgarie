@@ -616,7 +616,7 @@
     "redirectNotice": "Votre candidature sera envoyée via WhatsApp. Aucune donnée n’est enregistrée sur le site pour le moment.",
     "emailNote": "Votre demande sera envoyée par email à l’équipe Hello Dreams. Vous pouvez aussi nous contacter directement sur WhatsApp.",
     "emailSuccess": "Votre candidature a été envoyée avec succès. Notre équipe vous contactera bientôt.",
-    "emailError": "Une erreur est survenue. Vous pouvez envoyer votre candidature via WhatsApp.",
+    "emailError": "Le service d’envoi est temporairement indisponible. Contactez-nous via WhatsApp.",
     "whatsappFallback": "Envoyer via WhatsApp",
     "sending": "Envoi en cours...",
     "submit": "Envoyer ma candidature",
@@ -928,7 +928,7 @@
     "sending": "Envoi en cours...",
     "emailNote": "Votre demande sera envoyée par email à l’équipe Hello Dreams. Vous pouvez aussi nous contacter directement sur WhatsApp.",
     "emailSuccess": "Votre message a été envoyé avec succès. Nous vous contacterons bientôt.",
-    "emailError": "Une erreur est survenue. Vous pouvez nous contacter directement sur WhatsApp.",
+    "emailError": "Le service d’envoi est temporairement indisponible. Contactez-nous via WhatsApp.",
     "whatsappFallback": "Contacter sur WhatsApp",
     "placeholders": {
       "name": "Votre nom",

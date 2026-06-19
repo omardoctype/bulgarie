@@ -616,7 +616,7 @@
     "redirectNotice": "Your application will be sent via WhatsApp. No data is stored on the website for now.",
     "emailNote": "Your request will be sent by email to the Hello Dreams team. You can also contact us directly on WhatsApp.",
     "emailSuccess": "Your application has been sent successfully. Our team will contact you soon.",
-    "emailError": "An error occurred. You can send your application via WhatsApp.",
+    "emailError": "The sending service is temporarily unavailable. Contact us via WhatsApp.",
     "whatsappFallback": "Send via WhatsApp",
     "sending": "Sending...",
     "submit": "Send my application",
@@ -928,7 +928,7 @@
     "sending": "Sending...",
     "emailNote": "Your request will be sent by email to the Hello Dreams team. You can also contact us directly on WhatsApp.",
     "emailSuccess": "Your message has been sent successfully. We will contact you soon.",
-    "emailError": "An error occurred. You can contact us directly on WhatsApp.",
+    "emailError": "The sending service is temporarily unavailable. Contact us via WhatsApp.",
     "whatsappFallback": "Contact on WhatsApp",
     "placeholders": {
       "name": "Your name",
