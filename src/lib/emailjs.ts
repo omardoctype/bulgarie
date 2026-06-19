@@ -50,7 +50,7 @@ export function getEmailJsDebugConfig() {
   return {
     applicationTemplateId: emailConfig.applicationTemplateId,
     contactTemplateId: emailConfig.contactTemplateId,
-    hasPublicKey: Boolean(emailConfig.publicKey),
+    publicKeyPreview: getPublicKeyPreview(emailConfig.publicKey),
     receiverEmail: emailConfig.receiverEmail,
     serviceId: emailConfig.serviceId,
   }
@@ -64,6 +64,7 @@ export async function sendContactEmail(data: ContactEmailData): Promise<EmailRes
   }
 
   const templateParams = {
+    to_email: emailConfig.receiverEmail,
     from_name: data.name,
     from_email: data.email,
     from_phone: data.phone,
@@ -85,6 +86,7 @@ export async function sendApplicationEmail(data: ApplicationEmailData): Promise<
   }
 
   const templateParams = {
+    to_email: emailConfig.receiverEmail,
     full_name: `${data.firstName} ${data.lastName}`,
     age: data.age,
     city: data.city,
@@ -132,12 +134,16 @@ async function sendEmail(templateId: string | undefined, templateParams: Record<
         serviceId: emailConfig.serviceId,
         contactTemplateId: emailConfig.contactTemplateId,
         applicationTemplateId: emailConfig.applicationTemplateId,
-        hasPublicKey: Boolean(emailConfig.publicKey),
+        publicKeyPreview: getPublicKeyPreview(emailConfig.publicKey),
+        receiverEmail: emailConfig.receiverEmail,
       })
     }
 
-    await emailjs.send(emailConfig.serviceId, templateId, templateParams, {
-      publicKey: emailConfig.publicKey,
+    const serviceId = emailConfig.serviceId
+    const publicKey = emailConfig.publicKey
+
+    await emailjs.send(serviceId, templateId, templateParams, {
+      publicKey,
     })
 
     return { ok: true }
@@ -162,6 +168,18 @@ async function sendEmail(templateId: string | undefined, templateParams: Record<
 
 function getSourcePage() {
   return typeof window === 'undefined' ? '' : window.location.href
+}
+
+function getPublicKeyPreview(publicKey: string | undefined) {
+  if (!publicKey) {
+    return ''
+  }
+
+  if (publicKey.length <= 8) {
+    return '****'
+  }
+
+  return `${publicKey.slice(0, 4)}...${publicKey.slice(-4)}`
 }
 
 function normalizeEmailJsError(error: unknown) {

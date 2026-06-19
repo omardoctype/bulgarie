@@ -110,7 +110,8 @@ export function EmailJSTestPage() {
                 <DebugItem label="Service ID" value={debugConfig.serviceId} />
                 <DebugItem label="Contact template" value={debugConfig.contactTemplateId} />
                 <DebugItem label="Application template" value={debugConfig.applicationTemplateId} />
-                <DebugItem label="Public key presente" value={debugConfig.hasPublicKey ? 'Oui' : 'Non'} />
+                <DebugItem label="Public key" value={debugConfig.publicKeyPreview} />
+                <DebugItem label="Receiver email" value={debugConfig.receiverEmail} />
               </dl>
             </div>
           ) : null}
