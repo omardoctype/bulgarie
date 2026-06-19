@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { siteConfig } from '../../data/siteConfig'
 import { LogoMark } from '../common/LogoMark'
+import { SocialLinks } from '../common/SocialLinks'
 
 type FooterService = {
   id: string
@@ -41,24 +42,14 @@ export function Footer() {
             <p className="mt-5 max-w-xl text-sm leading-7 text-white/70">
               {t('footer.description')}
             </p>
-            <div className="mt-6 flex flex-wrap gap-2">
-              {siteConfig.socials.map((social) =>
-                social.href === '#' ? (
-                  <span key={social.name} className="rounded-full border border-white/15 px-3 py-2 text-xs font-semibold text-white/55">
-                    {social.name} · {t('contactSection.socialPlaceholder')}
-                  </span>
-                ) : (
-                  <a
-                    key={social.name}
-                    className="focus-ring rounded-full border border-white/20 px-3 py-2 text-xs font-semibold text-white/75 transition hover:bg-white hover:text-brand-navy"
-                    href={social.href}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    {social.name}
-                  </a>
-                ),
-              )}
+            <div className="mt-6">
+              <h2 className="text-sm font-semibold uppercase tracking-normal text-white/78">
+                {t('labels.followUs')}
+              </h2>
+              <SocialLinks
+                className="mt-3 flex flex-wrap gap-2"
+                linkClassName="focus-ring inline-flex min-h-10 items-center gap-2 rounded-full border border-white/20 px-3 py-2 text-xs font-semibold text-white/75 transition hover:bg-white hover:text-brand-navy"
+              />
             </div>
           </div>
 
@@ -88,14 +79,27 @@ export function Footer() {
             </FooterColumn>
 
             <FooterColumn title={t('footer.contact')}>
-              <a className="focus-ring flex items-start gap-2 rounded-sm text-white/72 hover:text-white" href={siteConfig.agency.whatsappUrl} target="_blank" rel="noreferrer">
+              <a
+                className="focus-ring flex items-start gap-2 rounded-sm text-white/72 hover:text-white"
+                href={siteConfig.agency.whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <MessageCircle className="mt-0.5 h-4 w-4 shrink-0 text-brand-green" aria-hidden="true" />
                 <span className="phone-number">{siteConfig.agency.whatsapp}</span>
               </a>
               {hasEmail ? (
-                <a className="focus-ring flex items-start gap-2 rounded-sm text-white/72 hover:text-white" href={`mailto:${siteConfig.agency.email}`}>
+                <a
+                  className="focus-ring flex items-start gap-2 rounded-sm text-white/72 hover:text-white"
+                  href={`mailto:${siteConfig.agency.email}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Email Hello Dreams"
+                >
                   <Mail className="mt-0.5 h-4 w-4 shrink-0 text-brand-green" aria-hidden="true" />
-                  {siteConfig.agency.email}
+                  <span>
+                    {t('labels.email')} : {siteConfig.agency.email}
+                  </span>
                 </a>
               ) : (
                 <span className="flex items-start gap-2 text-white/55">

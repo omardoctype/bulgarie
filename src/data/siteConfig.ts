@@ -113,10 +113,8 @@ export const siteConfig: SiteConfig = {
     twitterCard: 'summary_large_image',
   },
   socials: [
-    { name: 'Facebook', href: '#' },
-    { name: 'Instagram', href: '#' },
-    { name: 'TikTok', href: '#' },
-    { name: 'LinkedIn', href: '#' },
+    { name: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61590708163320' },
+    { name: 'Instagram', href: 'https://www.instagram.com/hello_dreamstn/' },
   ],
   statistics: [
     {

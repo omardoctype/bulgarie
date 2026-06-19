@@ -11,7 +11,7 @@ export function FloatingWhatsApp() {
     <a
       href={siteConfig.agency.whatsappUrl}
       target="_blank"
-      rel="noreferrer"
+      rel="noopener noreferrer"
       aria-describedby={tooltipId}
       aria-label={t('floatingWhatsApp.label')}
       className="focus-ring group fixed bottom-5 end-5 z-40 inline-flex h-14 w-14 items-center justify-center rounded-full bg-brand-green text-white shadow-soft transition hover:-translate-y-0.5 hover:bg-brand-petrol"

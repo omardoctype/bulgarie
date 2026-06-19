@@ -20,7 +20,7 @@ export function ButtonLink({ children, className = '', external = false, to, var
 
   if (external && typeof to === 'string') {
     return (
-      <a href={to} className={classes} target="_blank" rel="noreferrer">
+      <a href={to} className={classes} target="_blank" rel="noopener noreferrer">
         {children}
         <ArrowRight className="dir-icon h-4 w-4" aria-hidden="true" />
       </a>

@@ -1,11 +1,12 @@
 import { zodResolver } from '@hookform/resolvers/zod'
-import { CheckCircle2, Send } from 'lucide-react'
+import { CheckCircle2, CircleAlert, MessageCircle, Send } from 'lucide-react'
 import { cloneElement, isValidElement, useId, useMemo, useState } from 'react'
 import type { ReactElement, SelectHTMLAttributes } from 'react'
 import { useForm } from 'react-hook-form'
 import { useTranslation } from 'react-i18next'
 import { z } from 'zod'
 import { siteConfig } from '../../data/siteConfig'
+import { sendApplicationEmail } from '../../lib/emailjs'
 
 type SelectOption = {
   label: string
@@ -16,9 +17,12 @@ type ApplicationFormProps = {
   className?: string
 }
 
+type SubmissionStatus = 'idle' | 'success' | 'error'
+
 export function ApplicationForm({ className = '' }: ApplicationFormProps) {
   const { t } = useTranslation()
-  const [isRedirecting, setIsRedirecting] = useState(false)
+  const [submissionStatus, setSubmissionStatus] = useState<SubmissionStatus>('idle')
+  const [fallbackWhatsAppUrl, setFallbackWhatsAppUrl] = useState(siteConfig.agency.whatsappUrl)
   const consentId = useId()
   const consentErrorId = `${consentId}-error`
   const languageLevels = t('applicationForm.languageLevels', { returnObjects: true }) as SelectOption[]
@@ -65,6 +69,7 @@ export function ApplicationForm({ className = '' }: ApplicationFormProps) {
     formState: { errors, isSubmitting },
     handleSubmit,
     register,
+    reset,
   } = useForm<ApplicationFormValues>({
     resolver: zodResolver(schema),
     defaultValues: {
@@ -90,9 +95,10 @@ export function ApplicationForm({ className = '' }: ApplicationFormProps) {
     },
   })
 
-  const onSubmit = (values: ApplicationFormValues) => {
-    const message = t('applicationForm.whatsappMessage', {
-      ...values,
+  const onSubmit = async (values: ApplicationFormValues) => {
+    setSubmissionStatus('idle')
+
+    const translatedValues = {
       availability: findLabel(availabilityOptions, values.availability),
       educationLevel: findLabel(educationLevels, values.educationLevel),
       englishLevel: findLabel(languageLevels, values.englishLevel),
@@ -102,13 +108,35 @@ export function ApplicationForm({ className = '' }: ApplicationFormProps) {
       arabicLevel: findLabel(languageLevels, values.arabicLevel),
       validPassport: findLabel(passportOptions, values.validPassport),
       workedAbroad: findLabel(workedAbroadOptions, values.workedAbroad),
+    }
+    const whatsappMessage = t('applicationForm.whatsappMessage', {
+      ...values,
+      ...translatedValues,
     })
-    const whatsappUrl = `${siteConfig.agency.whatsappUrl}?text=${encodeURIComponent(message)}`
+    const whatsappUrl = `${siteConfig.agency.whatsappUrl}?text=${encodeURIComponent(whatsappMessage)}`
+    setFallbackWhatsAppUrl(whatsappUrl)
 
-    setIsRedirecting(true)
-    window.setTimeout(() => {
-      window.location.assign(whatsappUrl)
-    }, 750)
+    const result = await sendApplicationEmail({
+      ...translatedValues,
+      age: values.age,
+      city: values.tunisianCity,
+      consent: values.consent,
+      email: values.email,
+      experienceYears: values.experienceYears,
+      firstName: values.firstName,
+      lastName: values.lastName,
+      message: values.message,
+      spokenLanguages: values.spokenLanguages,
+      whatsapp: values.whatsapp,
+    })
+
+    if (result.ok) {
+      setSubmissionStatus('success')
+      reset()
+      return
+    }
+
+    setSubmissionStatus('error')
   }
 
   return (
@@ -191,7 +219,7 @@ export function ApplicationForm({ className = '' }: ApplicationFormProps) {
       </div>
 
       <p className="mt-5 rounded-lg border border-brand-green/25 bg-brand-green/10 p-4 text-sm leading-6 text-brand-ink/75">
-        {t('applicationForm.redirectNotice')}
+        {t('applicationForm.emailNote')}
       </p>
 
       <button
@@ -200,13 +228,31 @@ export function ApplicationForm({ className = '' }: ApplicationFormProps) {
         className="focus-ring mt-6 inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-brand-green px-6 py-3 text-sm font-semibold text-white shadow-soft transition hover:-translate-y-0.5 hover:bg-brand-petrol disabled:cursor-not-allowed disabled:opacity-70"
       >
         <Send className="h-4 w-4" aria-hidden="true" />
-        {t('applicationForm.submit')}
+        {isSubmitting ? t('applicationForm.sending') : t('applicationForm.submit')}
       </button>
 
-      {isRedirecting ? (
+      {submissionStatus === 'success' ? (
         <div className="mt-5 flex gap-3 rounded-lg border border-brand-green/30 bg-brand-green/10 p-4 text-sm leading-6 text-brand-ink" role="status" aria-live="polite">
           <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-brand-green" aria-hidden="true" />
-          <p>{t('applicationForm.redirectNotice')}</p>
+          <p>{t('applicationForm.emailSuccess')}</p>
+        </div>
+      ) : null}
+
+      {submissionStatus === 'error' ? (
+        <div className="mt-5 rounded-lg border border-brand-red/25 bg-brand-red/5 p-4 text-sm leading-6 text-brand-ink" role="alert">
+          <div className="flex gap-3">
+            <CircleAlert className="mt-0.5 h-5 w-5 shrink-0 text-brand-red" aria-hidden="true" />
+            <p>{t('applicationForm.emailError')}</p>
+          </div>
+          <a
+            className="focus-ring mt-4 inline-flex min-h-11 items-center justify-center gap-2 rounded-full bg-brand-green px-5 py-3 text-sm font-semibold text-white transition hover:bg-brand-petrol"
+            href={fallbackWhatsAppUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MessageCircle className="h-4 w-4" aria-hidden="true" />
+            {t('applicationForm.whatsappFallback')}
+          </a>
         </div>
       ) : null}
     </form>

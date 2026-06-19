@@ -1,8 +1,9 @@
-import { ArrowRight, CheckCircle2, MessageCircle } from 'lucide-react'
+import { ArrowRight, CheckCircle2, Mail, MessageCircle } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { siteConfig } from '../../data/siteConfig'
 import { SafeImage } from '../common/SafeImage'
+import { SocialLinks } from '../common/SocialLinks'
 
 export function HeroSection() {
   const { t } = useTranslation()
@@ -66,7 +67,7 @@ export function HeroSection() {
               <a
                 href={siteConfig.agency.whatsappUrl}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-white/35 bg-white/10 px-6 py-3 text-sm font-semibold text-white backdrop-blur transition duration-200 hover:-translate-y-0.5 hover:bg-white hover:text-brand-navy"
               >
                 <MessageCircle className="h-4 w-4" aria-hidden="true" />
@@ -94,7 +95,7 @@ export function HeroSection() {
             <a
               href={siteConfig.agency.whatsappUrl}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="focus-ring mt-3 flex items-center gap-3 rounded-lg bg-white px-4 py-4 text-brand-navy transition hover:-translate-y-0.5"
             >
               <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-brand-green text-white">
@@ -107,6 +108,23 @@ export function HeroSection() {
                 <span className="phone-number mt-1 block text-lg font-semibold">{siteConfig.agency.whatsapp}</span>
               </span>
             </a>
+            <div className="mt-4 flex flex-wrap items-center gap-2">
+              <a
+                className="focus-ring inline-flex min-h-9 items-center gap-2 rounded-full border border-white/18 bg-white/10 px-3 py-2 text-xs font-semibold text-white/78 transition hover:bg-white hover:text-brand-navy"
+                href={`mailto:${siteConfig.agency.email}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Email Hello Dreams"
+              >
+                <Mail className="h-4 w-4" aria-hidden="true" />
+                {t('labels.email')}
+              </a>
+              <SocialLinks
+                className="flex flex-wrap gap-2"
+                linkClassName="focus-ring inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/18 bg-white/10 text-white/78 transition hover:bg-white hover:text-brand-navy"
+                showLabels={false}
+              />
+            </div>
           </aside>
         </div>
       </div>

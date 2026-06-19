@@ -148,7 +148,7 @@ export function OpportunitiesPage() {
                 <a
                   href={createJobWhatsAppUrl(spontaneousMessage)}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="focus-ring inline-flex min-h-11 shrink-0 items-center justify-center gap-2 rounded-full bg-brand-green px-5 py-3 text-sm font-semibold text-white transition hover:bg-brand-petrol"
                 >
                   <MessageCircle className="h-4 w-4" aria-hidden="true" />
@@ -188,7 +188,7 @@ export function OpportunitiesPage() {
               <a
                 href={createJobWhatsAppUrl(spontaneousMessage)}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="focus-ring mt-6 inline-flex min-h-11 items-center justify-center gap-2 rounded-full bg-brand-green px-5 py-3 text-sm font-semibold text-white transition hover:bg-brand-petrol"
               >
                 <MessageCircle className="h-4 w-4" aria-hidden="true" />

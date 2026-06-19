@@ -1,8 +1,9 @@
-import { CheckCircle2, MessageCircle } from 'lucide-react'
+import { CheckCircle2, Mail, MessageCircle } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { ImageFrame } from '../common/ImageFrame'
 import { SectionHeader } from '../common/SectionHeader'
+import { SocialLinks } from '../common/SocialLinks'
 import { siteConfig } from '../../data/siteConfig'
 
 export function PrepareProjectSection() {
@@ -52,6 +53,21 @@ export function PrepareProjectSection() {
                 <p className="mt-2 text-sm text-brand-ink/72">
                   {t('home.prepareProject.floatingContactLabel')} : <span className="phone-number">{siteConfig.agency.whatsapp}</span>
                 </p>
+                <a
+                  className="focus-ring mt-2 inline-flex items-center gap-2 rounded-sm text-xs font-semibold text-brand-petrol hover:text-brand-navy"
+                  href={`mailto:${siteConfig.agency.email}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Email Hello Dreams"
+                >
+                  <Mail className="h-3.5 w-3.5" aria-hidden="true" />
+                  {siteConfig.agency.email}
+                </a>
+                <SocialLinks
+                  className="mt-3 flex flex-wrap gap-2"
+                  linkClassName="focus-ring inline-flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 text-brand-petrol transition hover:border-brand-petrol hover:bg-brand-mist hover:text-brand-navy"
+                  showLabels={false}
+                />
               </div>
             </div>
           </div>

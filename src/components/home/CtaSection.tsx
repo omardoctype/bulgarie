@@ -26,7 +26,7 @@ export function CtaSection() {
             <a
               href={siteConfig.agency.whatsappUrl}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-full border border-white/40 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white hover:text-brand-navy"
             >
               <MessageCircle className="h-4 w-4" aria-hidden="true" />

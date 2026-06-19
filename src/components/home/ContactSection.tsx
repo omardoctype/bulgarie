@@ -1,6 +1,7 @@
 import { Clock3, Mail, MapPin, MessageCircle, Share2 } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { siteConfig } from '../../data/siteConfig'
+import { SocialLinks } from '../common/SocialLinks'
 import { ContactForm } from '../forms/ContactForm'
 
 export function ContactSection() {
@@ -24,7 +25,7 @@ export function ContactSection() {
               className="focus-ring flex items-center gap-3 rounded-lg border border-white/10 bg-white/5 p-3 transition hover:bg-white/10"
               href={siteConfig.agency.whatsappUrl}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <MessageCircle className="h-5 w-5 shrink-0 text-brand-green" aria-hidden="true" />
               <span className="phone-number">{siteConfig.agency.whatsapp}</span>
@@ -33,9 +34,12 @@ export function ContactSection() {
               <a
                 className="focus-ring flex items-center gap-3 rounded-lg border border-white/10 bg-white/5 p-3 transition hover:bg-white/10"
                 href={`mailto:${siteConfig.agency.email}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Email Hello Dreams"
               >
                 <Mail className="h-5 w-5 shrink-0 text-brand-green" aria-hidden="true" />
-                {siteConfig.agency.email}
+                <span>{t('labels.email')} : {siteConfig.agency.email}</span>
               </a>
             ) : (
               <p className="flex items-center gap-3 rounded-lg border border-white/10 bg-white/5 p-3">
@@ -61,25 +65,10 @@ export function ContactSection() {
               <Share2 className="h-4 w-4 text-brand-green" aria-hidden="true" />
               {t('contactSection.socialsTitle')}
             </h3>
-            <div className="mt-3 flex flex-wrap gap-2">
-              {siteConfig.socials.map((social) =>
-                social.href === '#' ? (
-                  <span key={social.name} className="rounded-full border border-white/15 px-3 py-2 text-xs font-semibold text-white/62">
-                    {social.name} · {t('contactSection.socialPlaceholder')}
-                  </span>
-                ) : (
-                  <a
-                    key={social.name}
-                    className="focus-ring rounded-full border border-white/20 px-3 py-2 text-xs font-semibold text-white/75 transition hover:bg-white hover:text-brand-navy"
-                    href={social.href}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    {social.name}
-                  </a>
-                ),
-              )}
-            </div>
+            <SocialLinks
+              className="mt-3 flex flex-wrap gap-2"
+              linkClassName="focus-ring inline-flex min-h-10 items-center gap-2 rounded-full border border-white/20 px-3 py-2 text-xs font-semibold text-white/75 transition hover:bg-white hover:text-brand-navy"
+            />
           </div>
 
           <div className="mt-8 rounded-lg border border-brand-green/25 bg-white/8 p-5">

@@ -1,20 +1,24 @@
 import { zodResolver } from '@hookform/resolvers/zod'
-import { CheckCircle2, MessageCircle } from 'lucide-react'
+import { CheckCircle2, CircleAlert, MessageCircle, Send } from 'lucide-react'
 import { cloneElement, isValidElement, useId, useMemo, useState } from 'react'
 import type { ReactElement } from 'react'
 import { useForm } from 'react-hook-form'
 import { useTranslation } from 'react-i18next'
 import { z } from 'zod'
 import { siteConfig } from '../../data/siteConfig'
+import { sendContactEmail } from '../../lib/emailjs'
 
 type ContactSubject = {
   label: string
   value: string
 }
 
+type SubmissionStatus = 'idle' | 'success' | 'error'
+
 export function ContactForm() {
   const { t } = useTranslation()
-  const [isSubmitted, setIsSubmitted] = useState(false)
+  const [submissionStatus, setSubmissionStatus] = useState<SubmissionStatus>('idle')
+  const [fallbackWhatsAppUrl, setFallbackWhatsAppUrl] = useState(siteConfig.agency.whatsappUrl)
   const consentId = useId()
   const consentErrorId = `${consentId}-error`
   const subjects = t('form.subjects', { returnObjects: true }) as ContactSubject[]
@@ -51,16 +55,26 @@ export function ContactForm() {
     },
   })
 
-  const onSubmit = (values: ContactFormValues) => {
+  const onSubmit = async (values: ContactFormValues) => {
+    setSubmissionStatus('idle')
+
     const subjectLabel = subjects.find((subject) => subject.value === values.subject)?.label ?? values.subject
     const message = t('form.whatsappMessage', { ...values, subject: subjectLabel })
     const whatsappUrl = `${siteConfig.agency.whatsappUrl}?text=${encodeURIComponent(message)}`
+    setFallbackWhatsAppUrl(whatsappUrl)
 
-    setIsSubmitted(true)
-    window.setTimeout(() => {
-      window.location.assign(whatsappUrl)
+    const result = await sendContactEmail({
+      ...values,
+      subject: subjectLabel,
+    })
+
+    if (result.ok) {
+      setSubmissionStatus('success')
       reset()
-    }, 650)
+      return
+    }
+
+    setSubmissionStatus('error')
   }
 
   return (
@@ -121,19 +135,41 @@ export function ContactForm() {
       </label>
       {errors.consent ? <p id={consentErrorId} className="mt-2 text-sm text-brand-red" role="alert">{errors.consent.message}</p> : null}
 
+      <p className="mt-5 rounded-lg border border-brand-petrol/15 bg-brand-petrol/5 p-4 text-sm leading-6 text-brand-ink/75">
+        {t('form.emailNote')}
+      </p>
+
       <button
         type="submit"
         disabled={isSubmitting}
         className="focus-ring mt-6 inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-brand-green px-6 py-3 text-sm font-semibold text-white shadow-soft transition hover:bg-brand-petrol disabled:cursor-not-allowed disabled:opacity-70"
       >
-        <MessageCircle className="h-4 w-4" aria-hidden="true" />
-        {t('form.submitWhatsapp')}
+        <Send className="h-4 w-4" aria-hidden="true" />
+        {isSubmitting ? t('form.sending') : t('form.submitEmail')}
       </button>
 
-      {isSubmitted ? (
+      {submissionStatus === 'success' ? (
         <div className="mt-5 flex gap-3 rounded-lg border border-brand-green/30 bg-brand-green/10 p-4 text-sm leading-6 text-brand-ink" role="status" aria-live="polite">
           <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-brand-green" aria-hidden="true" />
-          <p>{t('form.success')}</p>
+          <p>{t('form.emailSuccess')}</p>
+        </div>
+      ) : null}
+
+      {submissionStatus === 'error' ? (
+        <div className="mt-5 rounded-lg border border-brand-red/25 bg-brand-red/5 p-4 text-sm leading-6 text-brand-ink" role="alert">
+          <div className="flex gap-3">
+            <CircleAlert className="mt-0.5 h-5 w-5 shrink-0 text-brand-red" aria-hidden="true" />
+            <p>{t('form.emailError')}</p>
+          </div>
+          <a
+            className="focus-ring mt-4 inline-flex min-h-11 items-center justify-center gap-2 rounded-full bg-brand-green px-5 py-3 text-sm font-semibold text-white transition hover:bg-brand-petrol"
+            href={fallbackWhatsAppUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MessageCircle className="h-4 w-4" aria-hidden="true" />
+            {t('form.whatsappFallback')}
+          </a>
         </div>
       ) : null}
     </form>

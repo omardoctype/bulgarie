@@ -71,10 +71,12 @@ function createOrganizationSchema(): JsonLd {
     name: siteConfig.agency.name,
     url: normalizeBaseUrl(siteConfig.seo.siteUrl),
     logo: buildAbsoluteUrl(siteConfig.assets.logo, siteConfig.seo.siteUrl),
+    email: siteConfig.agency.email,
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'customer support',
       telephone: siteConfig.agency.whatsapp,
+      email: siteConfig.agency.email,
       availableLanguage: ['French', 'Arabic', 'English'],
     },
     ...(sameAs.length > 0 ? { sameAs } : {}),
